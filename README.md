@@ -20,6 +20,14 @@
   <a href="https://github.com/zxpzdtom?tab=repositories"><strong>Explore all repositories →</strong></a>
 </p>
 
+## 🧰 Languages & Tools
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,swift,rust,react,vite,nodejs,html,css&theme=dark&perline=9" alt="Languages and frameworks" />
+  <br>
+  <img src="https://skillicons.dev/icons?i=cloudflare,githubactions,git,npm,pnpm,vscode,figma,apple,workers&theme=dark&perline=9" alt="Platforms and tools" />
+</p>
+
 ## 🧭 Builder Map
 
 I build focused, local-first tools across browser systems, native macOS, and AI-assisted product workflows.
@@ -65,14 +73,6 @@ I build focused, local-first tools across browser systems, native macOS, and AI-
 <p><sub>Automatically refreshed from GitHub every six hours.</sub></p>
 </blockquote>
 <!-- SHIP_LOG:END -->
-
-## 🧰 Languages & Tools
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,swift,rust,react,vite,nodejs,html,css&theme=dark&perline=9" alt="Languages and frameworks" />
-  <br>
-  <img src="https://skillicons.dev/icons?i=cloudflare,githubactions,git,npm,pnpm,vscode,figma,apple,workers&theme=dark&perline=9" alt="Platforms and tools" />
-</p>
 
 <p align="center">
   <img width="100%" src="./assets/profile-footer.svg" alt="Make it small. Make it sharp. Ship it." />
