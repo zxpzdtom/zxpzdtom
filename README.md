@@ -31,7 +31,7 @@ I build focused, local-first tools across browser systems, native macOS, and AI-
 
 <!-- SHIP_LOG:START -->
 <p align="center">
-  <img width="100%" src="./assets/ship-log.svg" alt="Latest releases and recently updated projects" />
+  <img width="100%" src="./assets/ship-log-v2.svg" alt="Latest releases and recently updated projects" />
 </p>
 
 <details>
