@@ -13,14 +13,8 @@
 I build focused, local-first tools across browser systems, native macOS, and AI-assisted product workflows.
 
 <p align="center">
-  <img width="100%" src="./assets/builder-map.svg" alt="Builder map spanning browser systems, native macOS, and AI-assisted product workflows" />
+  <img width="100%" src="./assets/builder-map-v2.svg" alt="Builder map spanning browser systems, native macOS, and AI-assisted product workflows" />
 </p>
-
-<details>
-<summary><strong>中文简介</strong></summary>
-<br>
-我是 Tom，一名偏产品思维的开发者和独立 Maker。喜欢把浏览器、macOS 和日常开发流程中反复出现的小麻烦，做成简单、顺手、尽量本地优先的工具。
-</details>
 
 ## 🚀 Featured Projects
 
