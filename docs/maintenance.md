@@ -1,24 +1,34 @@
 # Profile maintenance
 
-This profile is designed to stay useful even when an optional external service is unavailable.
+The profile follows established GitHub Profile README patterns and combines widely used dynamic components with repository-owned automation.
 
-## Dynamic pieces
+## Dynamic components
 
-- `assets/github-contribution-grid-snake*.svg` is refreshed daily by `.github/workflows/contribution-snake.yml` and stored in this repository.
-- GitHub profile summary cards come from `github-profile-summary-cards.vercel.app`.
-- Technology icons come from `skillicons.dev`.
-- Repository and release badges come from `img.shields.io`.
+- Header and footer: `capsule-render.vercel.app`
+- Typing introduction: `readme-typing-svg.demolab.com`
+- Repository cards and analytics: `github-stats-extended.vercel.app`
+- Contribution streak: `streak-stats.demolab.com`
+- Activity graph: `github-readme-activity-graph.vercel.app`
+- Trophies: `github-profile-trophy-rust.vercel.app`
+- Technology icons: `skillicons.dev`
+- Badges: `img.shields.io` and `komarev.com`
 
-The custom header and contribution-animation placeholders are repository-owned assets, so the page retains its visual identity before the first workflow run or during an external outage.
+The profile intentionally avoids the public `github-readme-stats.vercel.app` deployment because it returned HTTP 503 during implementation. The compatible extended deployment was verified before publishing.
+
+## Repository-owned automation
+
+### Ship log
+
+`.github/workflows/update-profile.yml` runs every six hours. It calls `scripts/update-readme.mjs`, reads public repository and release data from GitHub, and replaces the section between the `SHIP_LOG` markers in `README.md`.
+
+The tracked projects are configured in the `projects` array near the top of `scripts/update-readme.mjs`.
+
+### Contribution snake
+
+`.github/workflows/contribution-snake.yml` refreshes the light and dark contribution animations daily. Generated SVG files are committed to `assets/` so the animation remains under repository control.
+
+Both workflows share the `profile-writes` concurrency group to prevent simultaneous bot pushes.
 
 ## Manual refresh
 
-Open **Actions → Refresh contribution animation → Run workflow**.
-
-## Content refresh
-
-When the product focus changes, update these areas together:
-
-1. The product nodes in `assets/header-dark.svg` and `assets/header-light.svg`.
-2. The cards under **Selected work** in `README.md`.
-3. The pinned repositories on the GitHub profile.
+Open **Actions** and run either **Refresh profile content** or **Refresh contribution animation**.

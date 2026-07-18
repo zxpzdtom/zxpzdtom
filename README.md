@@ -1,123 +1,112 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
-  <img alt="Tom — building focused tools for browsers, macOS, and developers" src="./assets/header-dark.svg" width="100%">
-</picture>
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7F52FF,50:4A90E2,100:00D9FF&height=230&section=header&text=Hi,%20I%27m%20Tom%20%F0%9F%91%8B&fontSize=58&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Product%20Engineer%20%C2%B7%20Indie%20Maker%20%C2%B7%20Open%20Source&descAlignY=55&descSize=18" alt="Hi, I'm Tom — Product Engineer, Indie Maker, Open Source" />
+</p>
 
-<div align="center">
+<p align="center">
+  <a href="https://github.com/DenverCoder1/readme-typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=70A5FD&center=true&vCenter=true&random=false&width=680&lines=Building+focused+tools+for+browsers+%26+macOS;Turning+workflow+friction+into+useful+software;TypeScript+%C2%B7+Swift+%C2%B7+Rust+%C2%B7+Cloudflare;Make+it+small.+Make+it+sharp.+Ship+it." alt="Typing introduction" />
+  </a>
+</p>
 
-[![Browser tools](https://img.shields.io/badge/BROWSER-TOOLS-55E6C1?style=flat-square&labelColor=10131C)](https://github.com/zxpzdtom/tabweave)
-[![macOS apps](https://img.shields.io/badge/macOS-NATIVE-8FA7FF?style=flat-square&labelColor=10131C)](https://github.com/zxpzdtom/portpilot)
-[![Open source](https://img.shields.io/badge/OPEN-SOURCE-F7B955?style=flat-square&labelColor=10131C)](https://github.com/zxpzdtom?tab=repositories)
-[![Ship often](https://img.shields.io/badge/SHIP-OFTEN-FF7CCB?style=flat-square&labelColor=10131C)](https://github.com/zxpzdtom?tab=repositories)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=zxpzdtom&style=for-the-badge&color=7F52FF&label=PROFILE+VIEWS" alt="Profile views" />
+  <a href="https://github.com/zxpzdtom?tab=followers"><img src="https://img.shields.io/github/followers/zxpzdtom?style=for-the-badge&color=4A90E2&labelColor=1A1B27&logo=github" alt="GitHub followers" /></a>
+  <a href="https://github.com/zxpzdtom?tab=repositories"><img src="https://img.shields.io/badge/OPEN_SOURCE-BUILD_MODE-00D9FF?style=for-the-badge&labelColor=1A1B27&logo=github" alt="Open source build mode" /></a>
+</p>
 
-**Product-minded developer turning small workflow annoyances into focused, local-first tools.**
+<p align="center">
+  <a href="https://chromewebstore.google.com/detail/tabweave/pmfoefbiapldlpljfpjienjahdfmefej"><img src="https://img.shields.io/badge/TabWeave-Chrome_Web_Store-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="TabWeave on Chrome Web Store" /></a>
+  <a href="https://portpilot.anyask.dev"><img src="https://img.shields.io/badge/PortPilot-macOS_App-000000?style=flat-square&logo=apple&logoColor=white" alt="PortPilot for macOS" /></a>
+  <a href="https://search.anyask.dev"><img src="https://img.shields.io/badge/Search_Mate-Try_Online-FF4F8B?style=flat-square&logo=google&logoColor=white" alt="Try Search Mate" /></a>
+</p>
 
-I build for browsers, macOS, and the developers who keep too many things running at once.
+## 👨‍💻 About Me
+
+- 🔭 Building **[TabWeave](https://github.com/zxpzdtom/tabweave)**, **[MockKit](https://github.com/zxpzdtom/MockKit)**, and **[PortPilot](https://github.com/zxpzdtom/portpilot)**.
+- 🧩 I turn repetitive workflow annoyances into focused, local-first tools.
+- 🖥️ My favorite playgrounds are browser extensions, native macOS apps, developer tooling, and AI-assisted workflows.
+- 🚀 I care about products that are small enough to understand, polished enough to enjoy, and useful enough to keep installed.
+- 💬 Found an idea or a rough edge? Open an issue in the relevant project—I read them.
 
 <details>
 <summary><strong>中文简介</strong></summary>
 <br>
-我喜欢把工作流里那些反复出现的小麻烦，做成专注、顺手、尽量本地优先的工具。<br>
-目前主要关注浏览器效率、macOS 原生应用和 AI 辅助开发体验。
+我是 Tom，一名偏产品思维的开发者和独立 Maker。喜欢把浏览器、macOS 和日常开发流程中反复出现的小麻烦，做成简单、顺手、尽量本地优先的工具。
 </details>
 
-</div>
+## 🚀 Featured Projects
 
-## Selected work
+<p align="center">
+  <a href="https://github.com/zxpzdtom/tabweave"><img width="49%" src="https://github-stats-extended.vercel.app/api/pin/?username=zxpzdtom&repo=tabweave&theme=tokyonight&hide_border=true" alt="TabWeave repository card" /></a>
+  <a href="https://github.com/zxpzdtom/MockKit"><img width="49%" src="https://github-stats-extended.vercel.app/api/pin/?username=zxpzdtom&repo=MockKit&theme=tokyonight&hide_border=true" alt="MockKit repository card" /></a>
+  <a href="https://github.com/zxpzdtom/portpilot"><img width="49%" src="https://github-stats-extended.vercel.app/api/pin/?username=zxpzdtom&repo=portpilot&theme=tokyonight&hide_border=true" alt="PortPilot repository card" /></a>
+  <a href="https://github.com/zxpzdtom/search-mate"><img width="49%" src="https://github-stats-extended.vercel.app/api/pin/?username=zxpzdtom&repo=search-mate&theme=tokyonight&hide_border=true" alt="Search Mate repository card" /></a>
+</p>
 
+## 📡 Ship Log
+
+<!-- SHIP_LOG:START -->
 <table>
 <tr>
 <td width="50%" valign="top">
-
-### 01 / [TabWeave](https://github.com/zxpzdtom/tabweave)
-
-Rule-driven Chrome tab grouping for people who keep a lot of tabs open. Organize by domain, URL, title, or regex; search across tabs and history; snooze groups; restore window snapshots.
-
-[![Chrome Web Store](https://img.shields.io/badge/GET_IT-Chrome_Web_Store-55E6C1?style=for-the-badge&labelColor=10131C&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/tabweave/pmfoefbiapldlpljfpjienjahdfmefej)
-[![Stars](https://img.shields.io/github/stars/zxpzdtom/tabweave?style=flat-square&color=55E6C1&labelColor=10131C)](https://github.com/zxpzdtom/tabweave/stargazers)
-
+<strong>Latest Releases</strong><br><br>
+• <a href="https://github.com/zxpzdtom/portpilot/releases/tag/v0.1.6"><strong>PortPilot 0.1.6</strong></a> — 2026-07-05<br>
+• <a href="https://github.com/zxpzdtom/MockKit/releases/tag/v0.1.1"><strong>MockKit v0.1.1</strong></a> — 2026-06-02
 </td>
 <td width="50%" valign="top">
-
-### 02 / [MockKit](https://github.com/zxpzdtom/MockKit)
-
-A native-feeling macOS workspace for Chrome DevTools Local Overrides. Manage endpoints, switch response cases, import cURL, and generate mock data without running a proxy.
-
-[![Repository](https://img.shields.io/badge/EXPLORE-MockKit-8FA7FF?style=for-the-badge&labelColor=10131C&logo=github&logoColor=white)](https://github.com/zxpzdtom/MockKit)
-[![Stars](https://img.shields.io/github/stars/zxpzdtom/MockKit?style=flat-square&color=8FA7FF&labelColor=10131C)](https://github.com/zxpzdtom/MockKit/stargazers)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 03 / [PortPilot](https://github.com/zxpzdtom/portpilot)
-
-A native macOS menu bar monitor for local development. See listening ports, process ownership, runtime, CPU, and memory—then open, copy, or safely stop a service.
-
-[![Website](https://img.shields.io/badge/OPEN-PORTPILOT-F7B955?style=for-the-badge&labelColor=10131C&logo=safari&logoColor=white)](https://portpilot.anyask.dev)
-[![Release](https://img.shields.io/github/v/release/zxpzdtom/portpilot?style=flat-square&color=F7B955&labelColor=10131C)](https://github.com/zxpzdtom/portpilot/releases/latest)
-
-</td>
-<td width="50%" valign="top">
-
-### 04 / [Search Mate](https://github.com/zxpzdtom/search-mate)
-
-A tiny, playful way to share “let me search that for you” links for Google and Baidu. Small utility, sharp purpose, zero ceremony.
-
-[![Try it](https://img.shields.io/badge/TRY_IT-search.anyask.dev-FF7CCB?style=for-the-badge&labelColor=10131C&logo=google&logoColor=white)](https://search.anyask.dev)
-[![Stars](https://img.shields.io/github/stars/zxpzdtom/search-mate?style=flat-square&color=FF7CCB&labelColor=10131C)](https://github.com/zxpzdtom/search-mate/stargazers)
-
+<strong>Recently Updated</strong><br><br>
+• <a href="https://github.com/zxpzdtom/dom-ai-annotator"><strong>DOM AI Annotator</strong></a> — 2026-07-12<br>
+• <a href="https://github.com/zxpzdtom/tabweave"><strong>TabWeave</strong></a> — 2026-07-11<br>
+• <a href="https://github.com/zxpzdtom/tabworks"><strong>TabWorks</strong></a> — 2026-07-06<br>
+• <a href="https://github.com/zxpzdtom/portpilot"><strong>PortPilot</strong></a> — 2026-07-05
 </td>
 </tr>
 </table>
+<!-- SHIP_LOG:END -->
 
-## Build signal
+<sub>Automatically refreshed every 6 hours from GitHub.</sub>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=zxpzdtom&amp;theme=github_dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=zxpzdtom&amp;theme=github">
-  <img alt="Tom's GitHub contribution summary" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=zxpzdtom&amp;theme=github_dark" width="100%">
-</picture>
+## 🧰 Languages & Tools
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=zxpzdtom&amp;theme=github_dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=zxpzdtom&amp;theme=github">
-    <img alt="GitHub stats" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=zxpzdtom&amp;theme=github_dark" height="180">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=zxpzdtom&amp;theme=github_dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=zxpzdtom&amp;theme=github">
-    <img alt="Top languages by repository" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=zxpzdtom&amp;theme=github_dark" height="180">
-  </picture>
-</div>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,swift,rust,react,vite,nodejs,html,css&theme=dark&perline=9" alt="Languages and frameworks" />
+  <br>
+  <img src="https://skillicons.dev/icons?i=cloudflare,githubactions,git,npm,pnpm,vscode,figma,apple,workers&theme=dark&perline=9" alt="Platforms and tools" />
+</p>
 
-## Toolbox
+## 🏆 GitHub Trophies
 
-<div align="center">
+<p align="center">
+  <img width="100%" src="https://github-profile-trophy-rust.vercel.app/?username=zxpzdtom&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" alt="GitHub trophies" />
+</p>
 
-[![Technology stack: TypeScript, Swift, Rust, React, Vite, Cloudflare, Node.js, GitHub Actions, and Figma](https://skillicons.dev/icons?i=ts,swift,rust,react,vite,cloudflare,nodejs,githubactions,figma&theme=dark&perline=9)](https://github.com/zxpzdtom?tab=repositories)
+## 📊 GitHub Analytics
 
-`TypeScript` · `Swift` · `Rust` · `React` · `Vite` · `Cloudflare Workers` · `GitHub Actions`
+<p align="center">
+  <img width="49%" src="https://github-stats-extended.vercel.app/api?username=zxpzdtom&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true" alt="Tom's GitHub stats" />
+  <img width="49%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=zxpzdtom&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top languages" />
+</p>
 
-</div>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=zxpzdtom&theme=tokyonight&hide_border=true&date_format=%5BY.%5Dn.j" alt="GitHub contribution streak" />
+</p>
 
-## Open-source pulse
+## 📈 Contribution Activity
+
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=zxpzdtom&theme=tokyo-night&hide_border=true&area=true&custom_title=Tom%27s%20Contribution%20Activity" alt="Contribution activity graph" />
+</p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/github-contribution-grid-snake.svg">
-  <img alt="Animated contribution graph" src="./assets/github-contribution-grid-snake-dark.svg" width="100%">
+  <img width="100%" alt="Animated contribution snake" src="./assets/github-contribution-grid-snake-dark.svg">
 </picture>
 
-<div align="center">
+<p align="center">
+  <a href="https://github.com/zxpzdtom?tab=repositories"><strong>Explore all repositories →</strong></a>
+</p>
 
-### Current frequency
-
-**Build a focused tool → ship it → use it every day → keep removing friction.**
-
-[Explore all repositories](https://github.com/zxpzdtom?tab=repositories) · [Try TabWeave](https://chromewebstore.google.com/detail/tabweave/pmfoefbiapldlpljfpjienjahdfmefej) · [Download PortPilot](https://github.com/zxpzdtom/portpilot/releases/latest)
-
-</div>
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:4A90E2,100:7F52FF&height=120&section=footer" alt="Footer wave" />
+</p>
