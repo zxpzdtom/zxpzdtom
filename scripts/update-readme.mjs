@@ -65,7 +65,7 @@ const releases = releasesByProject
   .slice(0, 4);
 
 const recentlyUpdated = repositories
-  .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at))
+  .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at))
   .slice(0, 4);
 
 const releaseLines = releases.length
@@ -83,7 +83,7 @@ const updateLines = recentlyUpdated.map((repo) =>
 );
 
 const shipLog = `<!-- SHIP_LOG:START -->
-<table>
+<table width="100%">
 <tr>
 <td width="50%" valign="top">
 <strong>Latest Releases</strong><br><br>

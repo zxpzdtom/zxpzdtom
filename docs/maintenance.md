@@ -1,34 +1,32 @@
 # Profile maintenance
 
-The profile follows established GitHub Profile README patterns and combines widely used dynamic components with repository-owned automation.
+The profile combines established GitHub Profile README components with two repository-owned update workflows.
 
-## Dynamic components
+## External presentation components
 
 - Header and footer: `capsule-render.vercel.app`
 - Typing introduction: `readme-typing-svg.demolab.com`
-- Repository cards and analytics: `github-stats-extended.vercel.app`
+- Repository cards and language analytics: `github-stats-extended.vercel.app`
 - Contribution streak: `streak-stats.demolab.com`
-- Activity graph: `github-readme-activity-graph.vercel.app`
-- Trophies: `github-profile-trophy-rust.vercel.app`
 - Technology icons: `skillicons.dev`
-- Badges: `img.shields.io` and `komarev.com`
+- Badges: `img.shields.io`
 
-The profile intentionally avoids the public `github-readme-stats.vercel.app` deployment because it returned HTTP 503 during implementation. The compatible extended deployment was verified before publishing.
+The public `github-readme-stats.vercel.app` deployment returned HTTP 503 during implementation, so the verified compatible deployment is used for repository and language cards.
 
-## Repository-owned automation
-
-### Ship log
+## Ship log
 
 `.github/workflows/update-profile.yml` runs every six hours. It calls `scripts/update-readme.mjs`, reads public repository and release data from GitHub, and replaces the section between the `SHIP_LOG` markers in `README.md`.
 
-The tracked projects are configured in the `projects` array near the top of `scripts/update-readme.mjs`.
+Tracked projects are configured in the `projectLabels` map near the top of `scripts/update-readme.mjs`.
 
-### Contribution snake
+## 3D contribution calendar
 
-`.github/workflows/contribution-snake.yml` refreshes the light and dark contribution animations daily. Generated SVG files are committed to `assets/` so the animation remains under repository control.
+`.github/workflows/profile-3d.yml` uses `yoshi389111/github-profile-3d-contrib` once a day. It writes a responsive light/dark SVG to `profile-3d-contrib/profile-3d-contrib.svg` using `profile-3d-settings.json`.
+
+This component uses the repository's built-in `GITHUB_TOKEN`; no personal access token or third-party runtime image service is required.
 
 Both workflows share the `profile-writes` concurrency group to prevent simultaneous bot pushes.
 
 ## Manual refresh
 
-Open **Actions** and run either **Refresh profile content** or **Refresh contribution animation**.
+Open **Actions** and run either **Refresh profile content** or **Refresh 3D contribution graph**.

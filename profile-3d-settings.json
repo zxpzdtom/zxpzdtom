@@ -1,0 +1,33 @@
+{
+  "type": "normal",
+  "fileName": "profile-3d-contrib.svg",
+  "backgroundColor": "#ffffff",
+  "foregroundColor": "#0d1117",
+  "strongColor": "#7f52ff",
+  "weakColor": "#8c959f",
+  "radarColor": "#4a90e2",
+  "growingAnimation": true,
+  "contribColors": [
+    "#ebedf0",
+    "#c6e6ff",
+    "#7ac7ff",
+    "#4a90e2",
+    "#7f52ff"
+  ],
+  "darkMode": {
+    "type": "normal",
+    "backgroundColor": "#0d1117",
+    "foregroundColor": "#f0f6fc",
+    "strongColor": "#00d9ff",
+    "weakColor": "#8b949e",
+    "radarColor": "#7f52ff",
+    "growingAnimation": true,
+    "contribColors": [
+      "#161b22",
+      "#1f6feb",
+      "#4a90e2",
+      "#7f52ff",
+      "#00d9ff"
+    ]
+  }
+}
