@@ -34,19 +34,18 @@ I build focused, local-first tools across browser systems, native macOS, and AI-
   <img width="100%" src="./assets/ship-log-v2.svg" alt="Latest releases and recently updated projects" />
 </p>
 
-<details>
-<summary><strong>Release links and exact dates</strong></summary>
-<br>
-<strong>Latest Releases</strong><br>
-• <a href="https://github.com/zxpzdtom/portpilot/releases/tag/v0.1.6"><strong>PortPilot 0.1.6</strong></a> — 2026-07-05<br>
-• <a href="https://github.com/zxpzdtom/MockKit/releases/tag/v0.1.1"><strong>MockKit v0.1.1</strong></a> — 2026-06-02
+### 🔗 Release & Activity Index
 
-<strong>Recently Updated</strong><br>
-• <a href="https://github.com/zxpzdtom/dom-ai-annotator"><strong>DOM AI Annotator</strong></a> — 2026-07-12<br>
-• <a href="https://github.com/zxpzdtom/tabweave"><strong>TabWeave</strong></a> — 2026-07-11<br>
-• <a href="https://github.com/zxpzdtom/tabworks"><strong>TabWorks</strong></a> — 2026-07-06<br>
-• <a href="https://github.com/zxpzdtom/portpilot"><strong>PortPilot</strong></a> — 2026-07-05
-</details>
+| Signal | Project | Channel | Exact date |
+| :-- | :-- | :-- | --: |
+| 🟣 **Release** | [PortPilot 0.1.6](https://github.com/zxpzdtom/portpilot/releases/tag/v0.1.6) | GitHub Release | `2026-07-05` |
+| 🟣 **Release** | [MockKit v0.1.1](https://github.com/zxpzdtom/MockKit/releases/tag/v0.1.1) | GitHub Release | `2026-06-02` |
+| 🔵 **Updated** | [DOM AI Annotator](https://github.com/zxpzdtom/dom-ai-annotator) | Repository | `2026-07-12` |
+| 🔵 **Updated** | [TabWeave](https://github.com/zxpzdtom/tabweave) | Repository | `2026-07-11` |
+| 🔵 **Updated** | [TabWorks](https://github.com/zxpzdtom/tabworks) | Repository | `2026-07-06` |
+| 🔵 **Updated** | [PortPilot](https://github.com/zxpzdtom/portpilot) | Repository | `2026-07-05` |
+
+<sub>Automatically refreshed from GitHub every six hours.</sub>
 <!-- SHIP_LOG:END -->
 
 ## 🧰 Languages & Tools

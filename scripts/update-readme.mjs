@@ -42,8 +42,12 @@ function date(value) {
   return new Date(value).toISOString().slice(0, 10);
 }
 
-function item(url, label, timestamp) {
-  return `• <a href="${escapeHtml(url)}"><strong>${escapeHtml(label)}</strong></a> — ${date(timestamp)}`;
+function activityRow(signal, entry) {
+  const isRelease = signal === "Release";
+  const marker = isRelease ? "🟣" : "🔵";
+  const channel = isRelease ? "GitHub Release" : "Repository";
+  const label = escapeHtml(entry.label).replaceAll("|", "&#124;");
+  return `| ${marker} **${signal}** | [${label}](${escapeHtml(entry.url)}) | ${channel} | \`${date(entry.timestamp)}\` |`;
 }
 
 function truncate(value, length) {
@@ -174,26 +178,25 @@ const updateItems = recentlyUpdated.map((repo) => ({
   timestamp: repo.pushed_at,
 }));
 
-const releaseLines = releaseItems.length
-  ? releaseItems.map((entry) => item(entry.url, entry.label, entry.timestamp))
-  : ["• No releases published yet"];
-
-const updateLines = updateItems.map((entry) => item(entry.url, entry.label, entry.timestamp));
+const activityRows = [
+  ...(releaseItems.length
+    ? releaseItems.map((entry) => activityRow("Release", entry))
+    : ["| 🟣 **Release** | No releases published yet | GitHub Release | `—` |"]),
+  ...updateItems.map((entry) => activityRow("Updated", entry)),
+];
 
 const shipLog = `<!-- SHIP_LOG:START -->
 <p align="center">
   <img width="100%" src="./assets/ship-log-v2.svg" alt="Latest releases and recently updated projects" />
 </p>
 
-<details>
-<summary><strong>Release links and exact dates</strong></summary>
-<br>
-<strong>Latest Releases</strong><br>
-${releaseLines.join("<br>\n")}
+### 🔗 Release & Activity Index
 
-<strong>Recently Updated</strong><br>
-${updateLines.join("<br>\n")}
-</details>
+| Signal | Project | Channel | Exact date |
+| :-- | :-- | :-- | --: |
+${activityRows.join("\n")}
+
+<sub>Automatically refreshed from GitHub every six hours.</sub>
 <!-- SHIP_LOG:END -->`;
 
 const readme = await readFile(readmePath, "utf8");
