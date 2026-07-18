@@ -3,7 +3,7 @@ import { readFile, writeFile } from "node:fs/promises";
 const owner = process.env.PROFILE_OWNER || "zxpzdtom";
 const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
 const readmePath = new URL("../README.md", import.meta.url);
-const shipLogPath = new URL("../assets/ship-log-v2.svg", import.meta.url);
+const shipLogPath = new URL("../assets/ship-log-v3.svg", import.meta.url);
 const projectLabels = new Map([
   ["tabweave", "TabWeave"],
   ["MockKit", "MockKit"],
@@ -60,17 +60,16 @@ function renderShipLogSvg(releaseItems, updateItems) {
     });
   }
 
-  const releaseCards = visualReleases
+  const releaseRows = visualReleases
     .map((entry, index) => {
-      const x = 28 + index * 401;
+      const x = 28 + index * 407;
       const entryDate = entry.timestamp ? date(entry.timestamp) : "STATUS / OPEN";
       const accentColor = index === 0 ? "#7C5CFF" : "#367BF5";
-      return `<rect class="release-shell" x="${x + 0.5}" y="81.5" width="393" height="82" rx="19"/>
-      <rect class="release-core" x="${x + 5.5}" y="86.5" width="383" height="72" rx="14"/>
-      <rect x="${x + 20}" y="101" width="3" height="34" rx="1.5" fill="${accentColor}"/>
-      <text class="sans faint" x="${x + 366}" y="105" text-anchor="end" font-size="8.5" font-weight="750" letter-spacing="1.2">0${index + 1} / RELEASE</text>
-      <text class="sans ink" x="${x + 34}" y="122" font-size="15.5" font-weight="760" letter-spacing="-0.25">${escapeHtml(truncate(entry.label, 30))}</text>
-      <text class="sans muted" x="${x + 34}" y="144" font-size="9.5" font-weight="650">${entryDate}</text>`;
+      return `<text class="sans faint" x="${x}" y="91" font-size="8.4" font-weight="750" letter-spacing="1.25">0${index + 1} / RELEASE</text>
+      <circle cx="${x}" cy="112" r="3" fill="${accentColor}"/>
+      <text class="sans ink" x="${x + 14}" y="117" font-size="16" font-weight="760" letter-spacing="-0.3">${escapeHtml(truncate(entry.label, 30))}</text>
+      <text class="sans muted" x="${x + 14}" y="139" font-size="9.5" font-weight="650">${entryDate}</text>
+      <line class="hairline" x1="${x}" y1="151.5" x2="${x + 379}" y2="151.5"/>`;
     })
     .join("\n      ");
 
@@ -81,15 +80,16 @@ function renderShipLogSvg(releaseItems, updateItems) {
 
   const updateCells = visualUpdates
     .map((entry, index) => {
-      const x = 52 + index * 196;
+      const x = 28 + index * 203.5;
       const entryDate = entry.timestamp ? date(entry.timestamp) : "—";
-      return `<circle cx="${x}" cy="216" r="3" fill="#08B8D8"/>
-      <text class="sans ink" x="${x + 12}" y="219.5" font-size="10.5" font-weight="720">${escapeHtml(truncate(entry.label, 20))}</text>
-      <text class="sans muted" x="${x + 12}" y="236" font-size="8.8" font-weight="620">${entryDate}</text>`;
+      return `<text class="sans faint" x="${x}" y="182" font-size="8" font-weight="750" letter-spacing="1.1">0${index + 1}</text>
+      <circle cx="${x + 1}" cy="199" r="2.75" fill="#08B8D8"/>
+      <text class="sans ink" x="${x + 13}" y="202.5" font-size="10.2" font-weight="720">${escapeHtml(truncate(entry.label, 19))}</text>
+      <text class="sans muted" x="${x + 13}" y="218" font-size="8.5" font-weight="620">${entryDate}</text>`;
     })
     .join("\n      ");
 
-  return `<svg width="850" height="262" viewBox="0 0 850 262" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  return `<svg width="850" height="232" viewBox="0 0 850 232" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Live product ship log</title>
   <desc id="desc">Two featured releases and four recently updated projects, refreshed from GitHub.</desc>
   <defs>
@@ -101,8 +101,6 @@ function renderShipLogSvg(releaseItems, updateItems) {
   </defs>
   <style>
     .canvas { fill: #F8FAFD; }
-    .release-shell, .rail-shell { fill: #EAF0F7; stroke: #DAE3EF; }
-    .release-core, .rail-core { fill: #FFFFFF; }
     .ink { fill: #172033; }
     .muted { fill: #728097; }
     .faint { fill: #A5B0C1; }
@@ -110,28 +108,25 @@ function renderShipLogSvg(releaseItems, updateItems) {
     .sans { font-family: -apple-system, BlinkMacSystemFont, 'Avenir Next', sans-serif; }
     @media (prefers-color-scheme: dark) {
       .canvas { fill: #080B11; }
-      .release-shell, .rail-shell { fill: #121925; stroke: #202A39; }
-      .release-core, .rail-core { fill: #0C111A; }
       .ink { fill: #F3F6FB; }
       .muted { fill: #93A0B4; }
       .faint { fill: #526076; }
       .hairline { stroke: #263246; }
     }
   </style>
-  <rect class="canvas" width="850" height="262" rx="26"/>
+  <rect class="canvas" width="850" height="232" rx="24"/>
   <circle cx="30" cy="30" r="3.5" fill="#14B8A6"/>
-  <text class="sans muted" x="42" y="34" font-size="9.5" font-weight="750" letter-spacing="1.7">SHIP LOG / LIVE SIGNALS</text>
-  <text class="sans faint" x="822" y="34" text-anchor="end" font-size="8.5" font-weight="700" letter-spacing="1.5">GITHUB · REFRESH / 6H</text>
+  <text class="sans muted" x="42" y="34" font-size="9.5" font-weight="750" letter-spacing="1.7">SHIP LOG / LIVE FROM GITHUB</text>
+  <text class="sans faint" x="702" y="34" font-size="8" font-weight="700" letter-spacing="1.25">GITHUB · REFRESH / 6H</text>
   <line class="hairline" x1="28" y1="48.5" x2="822" y2="48.5"/>
   <path d="M28 49H822" stroke="url(#accent)" stroke-width="2.5" stroke-linecap="round"/>
-  <text class="sans muted" x="28" y="71" font-size="9" font-weight="750" letter-spacing="1.4">LATEST RELEASES / 02</text>
-  ${releaseCards}
-  <text class="sans muted" x="28" y="186" font-size="9" font-weight="750" letter-spacing="1.4">RECENTLY UPDATED / 04</text>
-  <rect class="rail-shell" x="27.5" y="196.5" width="795" height="50" rx="17"/>
-  <rect class="rail-core" x="33.5" y="201.5" width="783" height="40" rx="12"/>
-  <line class="hairline" x1="229.5" y1="207" x2="229.5" y2="237"/>
-  <line class="hairline" x1="425.5" y1="207" x2="425.5" y2="237"/>
-  <line class="hairline" x1="621.5" y1="207" x2="621.5" y2="237"/>
+  <text class="sans muted" x="28" y="71" font-size="9" font-weight="750" letter-spacing="1.4">LATEST RELEASES</text>
+  <line class="hairline" x1="421.5" y1="77" x2="421.5" y2="151"/>
+  ${releaseRows}
+  <text class="sans muted" x="28" y="173" font-size="9" font-weight="750" letter-spacing="1.4">RECENTLY UPDATED</text>
+  <line class="hairline" x1="219.5" y1="180" x2="219.5" y2="220"/>
+  <line class="hairline" x1="423.5" y1="180" x2="423.5" y2="220"/>
+  <line class="hairline" x1="627.5" y1="180" x2="627.5" y2="220"/>
   ${updateCells}
 </svg>
 `;
@@ -182,7 +177,7 @@ const updateLines = updateItems.map((entry) => activityLine("Updated", entry));
 
 const shipLog = `<!-- SHIP_LOG:START -->
 <p align="center">
-  <img width="100%" src="./assets/ship-log-v2.svg" alt="Latest releases and recently updated projects" />
+  <img width="100%" src="./assets/ship-log-v3.svg" alt="Latest releases and recently updated projects" />
 </p>
 
 ### 🔗 Release & Activity Index

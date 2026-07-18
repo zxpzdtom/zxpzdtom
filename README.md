@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" src="./assets/profile-hero-v2.svg" alt="Tom — Product Engineer and Indie Maker" />
+  <img width="100%" src="./assets/profile-hero-v3.svg" alt="Tom — Product Engineer and Indie Maker" />
 </p>
 
 <p align="center">
@@ -33,7 +33,7 @@
 I build focused, local-first tools across browser systems, native macOS, and AI-assisted product workflows.
 
 <p align="center">
-  <img width="100%" src="./assets/builder-map-v2.svg" alt="Builder map spanning browser systems, native macOS, and AI-assisted product workflows" />
+  <img width="100%" src="./assets/builder-map-v3.svg" alt="Builder map spanning browser systems, native macOS, and AI-assisted product workflows" />
 </p>
 
 ## 🚀 Featured Projects
@@ -51,7 +51,7 @@ I build focused, local-first tools across browser systems, native macOS, and AI-
 
 <!-- SHIP_LOG:START -->
 <p align="center">
-  <img width="100%" src="./assets/ship-log-v2.svg" alt="Latest releases and recently updated projects" />
+  <img width="100%" src="./assets/ship-log-v3.svg" alt="Latest releases and recently updated projects" />
 </p>
 
 ### 🔗 Release & Activity Index
