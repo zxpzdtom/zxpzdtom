@@ -42,17 +42,16 @@ function date(value) {
   return new Date(value).toISOString().slice(0, 10);
 }
 
-function activityRow(signal, entry) {
+function activityCard(signal, entry) {
   const isRelease = signal === "Release";
   const marker = isRelease ? "🟣" : "🔵";
   const channel = isRelease ? "GitHub Release" : "Repository";
   const label = escapeHtml(entry.label).replaceAll("|", "&#124;");
-  return `<tr>
-  <td width="18%">${marker} <strong>${signal}</strong></td>
-  <td width="36%"><a href="${escapeHtml(entry.url)}"><strong>${label}</strong></a></td>
-  <td width="26%">${channel}</td>
-  <td width="20%" align="right"><code>${date(entry.timestamp)}</code></td>
-</tr>`;
+  return `<td width="50%" valign="top">
+  <sub>${marker} <strong>${signal.toUpperCase()}</strong></sub><br>
+  <a href="${escapeHtml(entry.url)}"><strong>${label}</strong></a><br>
+  <sub>${channel} · <code>${date(entry.timestamp)}</code></sub>
+</td>`;
 }
 
 function truncate(value, length) {
@@ -183,17 +182,22 @@ const updateItems = recentlyUpdated.map((repo) => ({
   timestamp: repo.pushed_at,
 }));
 
-const activityRows = [
+const activityCards = [
   ...(releaseItems.length
-    ? releaseItems.map((entry) => activityRow("Release", entry))
-    : [`<tr>
-  <td width="18%">🟣 <strong>Release</strong></td>
-  <td width="36%">No releases published yet</td>
-  <td width="26%">GitHub Release</td>
-  <td width="20%" align="right"><code>—</code></td>
-</tr>`]),
-  ...updateItems.map((entry) => activityRow("Updated", entry)),
+    ? releaseItems.map((entry) => activityCard("Release", entry))
+    : [`<td width="50%" valign="top">
+  <sub>🟣 <strong>RELEASE</strong></sub><br>
+  <strong>No releases published yet</strong><br>
+  <sub>GitHub Release · <code>—</code></sub>
+</td>`]),
+  ...updateItems.map((entry) => activityCard("Updated", entry)),
 ];
+
+const activityGridRows = [];
+for (let index = 0; index < activityCards.length; index += 2) {
+  const secondCard = activityCards[index + 1] || '<td width="50%"></td>';
+  activityGridRows.push(`<tr>\n${activityCards[index]}\n${secondCard}\n</tr>`);
+}
 
 const shipLog = `<!-- SHIP_LOG:START -->
 <p align="center">
@@ -203,16 +207,8 @@ const shipLog = `<!-- SHIP_LOG:START -->
 ### 🔗 Release & Activity Index
 
 <table width="100%">
-<thead>
-<tr>
-  <th align="left">Signal</th>
-  <th align="left">Project</th>
-  <th align="left">Channel</th>
-  <th align="right">Exact date</th>
-</tr>
-</thead>
 <tbody>
-${activityRows.join("\n")}
+${activityGridRows.join("\n")}
 </tbody>
 </table>
 
