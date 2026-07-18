@@ -47,7 +47,12 @@ function activityRow(signal, entry) {
   const marker = isRelease ? "🟣" : "🔵";
   const channel = isRelease ? "GitHub Release" : "Repository";
   const label = escapeHtml(entry.label).replaceAll("|", "&#124;");
-  return `| ${marker} **${signal}** | [${label}](${escapeHtml(entry.url)}) | ${channel} | \`${date(entry.timestamp)}\` |`;
+  return `<tr>
+  <td width="18%">${marker} <strong>${signal}</strong></td>
+  <td width="36%"><a href="${escapeHtml(entry.url)}"><strong>${label}</strong></a></td>
+  <td width="26%">${channel}</td>
+  <td width="20%" align="right"><code>${date(entry.timestamp)}</code></td>
+</tr>`;
 }
 
 function truncate(value, length) {
@@ -181,7 +186,12 @@ const updateItems = recentlyUpdated.map((repo) => ({
 const activityRows = [
   ...(releaseItems.length
     ? releaseItems.map((entry) => activityRow("Release", entry))
-    : ["| 🟣 **Release** | No releases published yet | GitHub Release | `—` |"]),
+    : [`<tr>
+  <td width="18%">🟣 <strong>Release</strong></td>
+  <td width="36%">No releases published yet</td>
+  <td width="26%">GitHub Release</td>
+  <td width="20%" align="right"><code>—</code></td>
+</tr>`]),
   ...updateItems.map((entry) => activityRow("Updated", entry)),
 ];
 
@@ -192,9 +202,19 @@ const shipLog = `<!-- SHIP_LOG:START -->
 
 ### 🔗 Release & Activity Index
 
-| Signal | Project | Channel | Exact date |
-| :-- | :-- | :-- | --: |
+<table width="100%">
+<thead>
+<tr>
+  <th align="left">Signal</th>
+  <th align="left">Project</th>
+  <th align="left">Channel</th>
+  <th align="right">Exact date</th>
+</tr>
+</thead>
+<tbody>
 ${activityRows.join("\n")}
+</tbody>
+</table>
 
 <sub>Automatically refreshed from GitHub every six hours.</sub>
 <!-- SHIP_LOG:END -->`;

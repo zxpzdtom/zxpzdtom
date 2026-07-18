@@ -36,14 +36,54 @@ I build focused, local-first tools across browser systems, native macOS, and AI-
 
 ### 🔗 Release & Activity Index
 
-| Signal | Project | Channel | Exact date |
-| :-- | :-- | :-- | --: |
-| 🟣 **Release** | [PortPilot 0.1.6](https://github.com/zxpzdtom/portpilot/releases/tag/v0.1.6) | GitHub Release | `2026-07-05` |
-| 🟣 **Release** | [MockKit v0.1.1](https://github.com/zxpzdtom/MockKit/releases/tag/v0.1.1) | GitHub Release | `2026-06-02` |
-| 🔵 **Updated** | [DOM AI Annotator](https://github.com/zxpzdtom/dom-ai-annotator) | Repository | `2026-07-12` |
-| 🔵 **Updated** | [TabWeave](https://github.com/zxpzdtom/tabweave) | Repository | `2026-07-11` |
-| 🔵 **Updated** | [TabWorks](https://github.com/zxpzdtom/tabworks) | Repository | `2026-07-06` |
-| 🔵 **Updated** | [PortPilot](https://github.com/zxpzdtom/portpilot) | Repository | `2026-07-05` |
+<table width="100%">
+<thead>
+<tr>
+  <th align="left">Signal</th>
+  <th align="left">Project</th>
+  <th align="left">Channel</th>
+  <th align="right">Exact date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td width="18%">🟣 <strong>Release</strong></td>
+  <td width="36%"><a href="https://github.com/zxpzdtom/portpilot/releases/tag/v0.1.6"><strong>PortPilot 0.1.6</strong></a></td>
+  <td width="26%">GitHub Release</td>
+  <td width="20%" align="right"><code>2026-07-05</code></td>
+</tr>
+<tr>
+  <td width="18%">🟣 <strong>Release</strong></td>
+  <td width="36%"><a href="https://github.com/zxpzdtom/MockKit/releases/tag/v0.1.1"><strong>MockKit v0.1.1</strong></a></td>
+  <td width="26%">GitHub Release</td>
+  <td width="20%" align="right"><code>2026-06-02</code></td>
+</tr>
+<tr>
+  <td width="18%">🔵 <strong>Updated</strong></td>
+  <td width="36%"><a href="https://github.com/zxpzdtom/dom-ai-annotator"><strong>DOM AI Annotator</strong></a></td>
+  <td width="26%">Repository</td>
+  <td width="20%" align="right"><code>2026-07-12</code></td>
+</tr>
+<tr>
+  <td width="18%">🔵 <strong>Updated</strong></td>
+  <td width="36%"><a href="https://github.com/zxpzdtom/tabweave"><strong>TabWeave</strong></a></td>
+  <td width="26%">Repository</td>
+  <td width="20%" align="right"><code>2026-07-11</code></td>
+</tr>
+<tr>
+  <td width="18%">🔵 <strong>Updated</strong></td>
+  <td width="36%"><a href="https://github.com/zxpzdtom/tabworks"><strong>TabWorks</strong></a></td>
+  <td width="26%">Repository</td>
+  <td width="20%" align="right"><code>2026-07-06</code></td>
+</tr>
+<tr>
+  <td width="18%">🔵 <strong>Updated</strong></td>
+  <td width="36%"><a href="https://github.com/zxpzdtom/portpilot"><strong>PortPilot</strong></a></td>
+  <td width="26%">Repository</td>
+  <td width="20%" align="right"><code>2026-07-05</code></td>
+</tr>
+</tbody>
+</table>
 
 <sub>Automatically refreshed from GitHub every six hours.</sub>
 <!-- SHIP_LOG:END -->
