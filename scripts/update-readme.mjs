@@ -42,16 +42,8 @@ function date(value) {
   return new Date(value).toISOString().slice(0, 10);
 }
 
-function shieldSegment(value) {
-  return encodeURIComponent(String(value)).replaceAll("-", "--");
-}
-
-function activityBadge(signal, entry) {
-  const isRelease = signal === "Release";
-  const color = isRelease ? "7C5CFF" : "08B8D8";
-  const message = `${entry.label} · ${date(entry.timestamp)}`;
-  const source = `https://img.shields.io/badge/${shieldSegment(signal.toUpperCase())}-${shieldSegment(message)}-${color}?style=for-the-badge&amp;labelColor=141B2A`;
-  return `<a href="${escapeHtml(entry.url)}"><img src="${source}" alt="${escapeHtml(`${signal}: ${message}`)}" /></a>`;
+function activityLine(signal, entry) {
+  return `<kbd>${signal.toUpperCase()}</kbd>&nbsp; <a href="${escapeHtml(entry.url)}"><strong>${escapeHtml(entry.label)}</strong></a>&nbsp; <code>${date(entry.timestamp)}</code>`;
 }
 
 function truncate(value, length) {
@@ -182,15 +174,11 @@ const updateItems = recentlyUpdated.map((repo) => ({
   timestamp: repo.pushed_at,
 }));
 
-const releaseBadges = releaseItems.length
-  ? releaseItems.map((entry) => activityBadge("Release", entry))
-  : ['<img src="https://img.shields.io/badge/RELEASE-No_releases_published-7C5CFF?style=for-the-badge&amp;labelColor=141B2A" alt="No releases published yet" />'];
+const releaseLines = releaseItems.length
+  ? releaseItems.map((entry) => activityLine("Release", entry))
+  : ["<kbd>RELEASE</kbd>&nbsp; <strong>No releases published yet</strong>&nbsp; <code>—</code>"];
 
-const updateBadges = updateItems.map((entry) => activityBadge("Updated", entry));
-const updateBadgeRows = [];
-for (let index = 0; index < updateBadges.length; index += 2) {
-  updateBadgeRows.push(updateBadges.slice(index, index + 2).join("\n  "));
-}
+const updateLines = updateItems.map((entry) => activityLine("Updated", entry));
 
 const shipLog = `<!-- SHIP_LOG:START -->
 <p align="center">
@@ -199,17 +187,18 @@ const shipLog = `<!-- SHIP_LOG:START -->
 
 ### 🔗 Release & Activity Index
 
-<p align="center">
-  <sub><strong>LATEST RELEASES</strong></sub><br><br>
-  ${releaseBadges.join("\n  ")}
+<blockquote>
+<p><strong>LATEST RELEASES</strong></p>
+<p>
+${releaseLines.join("<br>\n")}
 </p>
-
-<p align="center">
-  <sub><strong>RECENTLY UPDATED</strong></sub><br><br>
-  ${updateBadgeRows.join("<br>\n  ")}
+<hr>
+<p><strong>RECENTLY UPDATED</strong></p>
+<p>
+${updateLines.join("<br>\n")}
 </p>
-
-<sub>Automatically refreshed from GitHub every six hours.</sub>
+<p><sub>Automatically refreshed from GitHub every six hours.</sub></p>
+</blockquote>
 <!-- SHIP_LOG:END -->`;
 
 const readme = await readFile(readmePath, "utf8");
