@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">Tom — Developer and product builder</title>
+  <desc id="desc">A light technical dashboard introducing Tom and the products TabWeave, MockKit, and PortPilot.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F8FBFF"/><stop offset=".55" stop-color="#F0F5FF"/><stop offset="1" stop-color="#FFF8FC"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00A987"/><stop offset=".48" stop-color="#526FE8"/><stop offset="1" stop-color="#D83E93"/></linearGradient>
+    <radialGradient id="glowA"><stop stop-color="#55E6C1" stop-opacity=".2"/><stop offset="1" stop-color="#55E6C1" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowB"><stop stop-color="#8FA7FF" stop-opacity=".2"/><stop offset="1" stop-color="#8FA7FF" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#526FE8" stroke-opacity=".08"/></pattern>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="frame"><rect x="1" y="1" width="1198" height="378" rx="22"/></clipPath>
+    <style>
+      .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Arial,sans-serif}.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+      .dash{stroke-dasharray:6 10;animation:flow 7s linear infinite}.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 3.2s ease-in-out infinite}.pulse2{animation-delay:-1.4s}
+      @keyframes flow{to{stroke-dashoffset:-64}}@keyframes pulse{0%,100%{opacity:.45;transform:scale(.9)}50%{opacity:1;transform:scale(1.12)}}@media (prefers-reduced-motion:reduce){.dash,.pulse{animation:none}}
+    </style>
+  </defs>
+  <g clip-path="url(#frame)"><rect width="1200" height="380" fill="url(#bg)"/><rect width="1200" height="380" fill="url(#grid)"/><ellipse cx="100" cy="50" rx="330" ry="250" fill="url(#glowA)"/><ellipse cx="1030" cy="225" rx="360" ry="300" fill="url(#glowB)"/><path d="M0 312C210 260 335 356 535 300S890 244 1200 288" fill="none" stroke="url(#accent)" stroke-opacity=".12" stroke-width="62"/><path d="M-20 333C210 277 350 365 555 309S900 251 1220 297" fill="none" stroke="url(#accent)" stroke-opacity=".48" class="dash"/></g>
+  <rect x="1" y="1" width="1198" height="378" rx="22" fill="none" stroke="url(#accent)" stroke-opacity=".4"/>
+  <g class="mono" font-size="12" letter-spacing="1.8"><rect x="42" y="32" width="222" height="30" rx="15" fill="#FFFFFF" fill-opacity=".8" stroke="#00A987" stroke-opacity=".42"/><circle cx="59" cy="47" r="4" fill="#00A987" filter="url(#softGlow)" class="pulse"/><text x="73" y="51" fill="#34405A">ZXPZDTOM // ONLINE</text><text x="1157" y="51" fill="#7B879C" text-anchor="end">OPEN SOURCE · BUILD MODE</text></g>
+  <g class="sans"><text x="44" y="139" fill="#131A2B" font-size="66" font-weight="760" letter-spacing="-2.4">TOM</text><rect x="46" y="158" width="388" height="5" rx="2.5" fill="url(#accent)"/><text x="44" y="210" fill="#29344B" font-size="22" font-weight="560" letter-spacing=".4">BUILDING TOOLS THAT REMOVE FRICTION</text><text x="44" y="246" fill="#68758C" font-size="16">Browsers · macOS · AI-assisted workflows · Open source</text></g>
+  <g class="mono" font-size="12"><text x="46" y="300" fill="#008B71">01</text><text x="74" y="300" fill="#47546A">PRODUCT-MINDED</text><text x="218" y="300" fill="#526FE8">02</text><text x="246" y="300" fill="#47546A">LOCAL-FIRST</text><text x="374" y="300" fill="#C42E80">03</text><text x="402" y="300" fill="#47546A">SHIP OFTEN</text></g>
+  <g transform="translate(684 74)"><circle cx="214" cy="115" r="106" fill="#FFFFFF" fill-opacity=".68" stroke="#526FE8" stroke-opacity=".22"/><circle cx="214" cy="115" r="68" fill="none" stroke="#00A987" stroke-opacity=".26" class="dash"/><circle cx="214" cy="115" r="12" fill="#202B44"/><circle cx="214" cy="115" r="25" fill="none" stroke="#526FE8" stroke-opacity=".35" class="pulse pulse2"/><path d="M214 47L326 44M279 169L338 208M150 169L66 213" fill="none" stroke="#8D99AD" stroke-width="1.2"/><circle cx="326" cy="44" r="6" fill="#00A987" filter="url(#softGlow)" class="pulse"/><circle cx="338" cy="208" r="6" fill="#D49018" filter="url(#softGlow)" class="pulse pulse2"/><circle cx="66" cy="213" r="6" fill="#D83E93" filter="url(#softGlow)" class="pulse"/>
+    <g class="mono" font-size="12" letter-spacing="1"><rect x="338" y="27" width="132" height="34" rx="8" fill="#FFFFFF" stroke="#00A987" stroke-opacity=".42"/><text x="352" y="48" fill="#2B354A">TABWEAVE</text><rect x="350" y="191" width="120" height="34" rx="8" fill="#FFFFFF" stroke="#D49018" stroke-opacity=".42"/><text x="364" y="212" fill="#2B354A">PORTPILOT</text><rect x="-50" y="196" width="120" height="34" rx="8" fill="#FFFFFF" stroke="#D83E93" stroke-opacity=".42"/><text x="-36" y="217" fill="#2B354A">MOCKKIT</text><text x="214" y="151" fill="#738097" text-anchor="middle">MAKE / SHIP / REFINE</text></g>
+  </g>
+</svg>
