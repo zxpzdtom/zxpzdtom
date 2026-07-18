@@ -42,16 +42,16 @@ function date(value) {
   return new Date(value).toISOString().slice(0, 10);
 }
 
-function activityCard(signal, entry) {
+function shieldSegment(value) {
+  return encodeURIComponent(String(value)).replaceAll("-", "--");
+}
+
+function activityBadge(signal, entry) {
   const isRelease = signal === "Release";
-  const marker = isRelease ? "🟣" : "🔵";
-  const channel = isRelease ? "GitHub Release" : "Repository";
-  const label = escapeHtml(entry.label).replaceAll("|", "&#124;");
-  return `<td width="50%" valign="top">
-  <sub>${marker} <strong>${signal.toUpperCase()}</strong></sub><br>
-  <a href="${escapeHtml(entry.url)}"><strong>${label}</strong></a><br>
-  <sub>${channel} · <code>${date(entry.timestamp)}</code></sub>
-</td>`;
+  const color = isRelease ? "7C5CFF" : "08B8D8";
+  const message = `${entry.label} · ${date(entry.timestamp)}`;
+  const source = `https://img.shields.io/badge/${shieldSegment(signal.toUpperCase())}-${shieldSegment(message)}-${color}?style=for-the-badge&amp;labelColor=141B2A`;
+  return `<a href="${escapeHtml(entry.url)}"><img src="${source}" alt="${escapeHtml(`${signal}: ${message}`)}" /></a>`;
 }
 
 function truncate(value, length) {
@@ -182,21 +182,14 @@ const updateItems = recentlyUpdated.map((repo) => ({
   timestamp: repo.pushed_at,
 }));
 
-const activityCards = [
-  ...(releaseItems.length
-    ? releaseItems.map((entry) => activityCard("Release", entry))
-    : [`<td width="50%" valign="top">
-  <sub>🟣 <strong>RELEASE</strong></sub><br>
-  <strong>No releases published yet</strong><br>
-  <sub>GitHub Release · <code>—</code></sub>
-</td>`]),
-  ...updateItems.map((entry) => activityCard("Updated", entry)),
-];
+const releaseBadges = releaseItems.length
+  ? releaseItems.map((entry) => activityBadge("Release", entry))
+  : ['<img src="https://img.shields.io/badge/RELEASE-No_releases_published-7C5CFF?style=for-the-badge&amp;labelColor=141B2A" alt="No releases published yet" />'];
 
-const activityGridRows = [];
-for (let index = 0; index < activityCards.length; index += 2) {
-  const secondCard = activityCards[index + 1] || '<td width="50%"></td>';
-  activityGridRows.push(`<tr>\n${activityCards[index]}\n${secondCard}\n</tr>`);
+const updateBadges = updateItems.map((entry) => activityBadge("Updated", entry));
+const updateBadgeRows = [];
+for (let index = 0; index < updateBadges.length; index += 2) {
+  updateBadgeRows.push(updateBadges.slice(index, index + 2).join("\n  "));
 }
 
 const shipLog = `<!-- SHIP_LOG:START -->
@@ -206,11 +199,15 @@ const shipLog = `<!-- SHIP_LOG:START -->
 
 ### 🔗 Release & Activity Index
 
-<table width="100%">
-<tbody>
-${activityGridRows.join("\n")}
-</tbody>
-</table>
+<p align="center">
+  <sub><strong>LATEST RELEASES</strong></sub><br><br>
+  ${releaseBadges.join("\n  ")}
+</p>
+
+<p align="center">
+  <sub><strong>RECENTLY UPDATED</strong></sub><br><br>
+  ${updateBadgeRows.join("<br>\n  ")}
+</p>
 
 <sub>Automatically refreshed from GitHub every six hours.</sub>
 <!-- SHIP_LOG:END -->`;

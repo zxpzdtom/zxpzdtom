@@ -36,46 +36,19 @@ I build focused, local-first tools across browser systems, native macOS, and AI-
 
 ### 🔗 Release & Activity Index
 
-<table width="100%">
-<tbody>
-<tr>
-<td width="50%" valign="top">
-  <sub>🟣 <strong>RELEASE</strong></sub><br>
-  <a href="https://github.com/zxpzdtom/portpilot/releases/tag/v0.1.6"><strong>PortPilot 0.1.6</strong></a><br>
-  <sub>GitHub Release · <code>2026-07-05</code></sub>
-</td>
-<td width="50%" valign="top">
-  <sub>🟣 <strong>RELEASE</strong></sub><br>
-  <a href="https://github.com/zxpzdtom/MockKit/releases/tag/v0.1.1"><strong>MockKit v0.1.1</strong></a><br>
-  <sub>GitHub Release · <code>2026-06-02</code></sub>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-  <sub>🔵 <strong>UPDATED</strong></sub><br>
-  <a href="https://github.com/zxpzdtom/dom-ai-annotator"><strong>DOM AI Annotator</strong></a><br>
-  <sub>Repository · <code>2026-07-12</code></sub>
-</td>
-<td width="50%" valign="top">
-  <sub>🔵 <strong>UPDATED</strong></sub><br>
-  <a href="https://github.com/zxpzdtom/tabweave"><strong>TabWeave</strong></a><br>
-  <sub>Repository · <code>2026-07-11</code></sub>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-  <sub>🔵 <strong>UPDATED</strong></sub><br>
-  <a href="https://github.com/zxpzdtom/tabworks"><strong>TabWorks</strong></a><br>
-  <sub>Repository · <code>2026-07-06</code></sub>
-</td>
-<td width="50%" valign="top">
-  <sub>🔵 <strong>UPDATED</strong></sub><br>
-  <a href="https://github.com/zxpzdtom/portpilot"><strong>PortPilot</strong></a><br>
-  <sub>Repository · <code>2026-07-05</code></sub>
-</td>
-</tr>
-</tbody>
-</table>
+<p align="center">
+  <sub><strong>LATEST RELEASES</strong></sub><br><br>
+  <a href="https://github.com/zxpzdtom/portpilot/releases/tag/v0.1.6"><img src="https://img.shields.io/badge/RELEASE-PortPilot%200.1.6%20%C2%B7%202026--07--05-7C5CFF?style=for-the-badge&amp;labelColor=141B2A" alt="Release: PortPilot 0.1.6 · 2026-07-05" /></a>
+  <a href="https://github.com/zxpzdtom/MockKit/releases/tag/v0.1.1"><img src="https://img.shields.io/badge/RELEASE-MockKit%20v0.1.1%20%C2%B7%202026--06--02-7C5CFF?style=for-the-badge&amp;labelColor=141B2A" alt="Release: MockKit v0.1.1 · 2026-06-02" /></a>
+</p>
+
+<p align="center">
+  <sub><strong>RECENTLY UPDATED</strong></sub><br><br>
+  <a href="https://github.com/zxpzdtom/dom-ai-annotator"><img src="https://img.shields.io/badge/UPDATED-DOM%20AI%20Annotator%20%C2%B7%202026--07--12-08B8D8?style=for-the-badge&amp;labelColor=141B2A" alt="Updated: DOM AI Annotator · 2026-07-12" /></a>
+  <a href="https://github.com/zxpzdtom/tabweave"><img src="https://img.shields.io/badge/UPDATED-TabWeave%20%C2%B7%202026--07--11-08B8D8?style=for-the-badge&amp;labelColor=141B2A" alt="Updated: TabWeave · 2026-07-11" /></a><br>
+  <a href="https://github.com/zxpzdtom/tabworks"><img src="https://img.shields.io/badge/UPDATED-TabWorks%20%C2%B7%202026--07--06-08B8D8?style=for-the-badge&amp;labelColor=141B2A" alt="Updated: TabWorks · 2026-07-06" /></a>
+  <a href="https://github.com/zxpzdtom/portpilot"><img src="https://img.shields.io/badge/UPDATED-PortPilot%20%C2%B7%202026--07--05-08B8D8?style=for-the-badge&amp;labelColor=141B2A" alt="Updated: PortPilot · 2026-07-05" /></a>
+</p>
 
 <sub>Automatically refreshed from GitHub every six hours.</sub>
 <!-- SHIP_LOG:END -->
