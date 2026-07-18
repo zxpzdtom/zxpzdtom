@@ -8,6 +8,18 @@
   <a href="https://search.anyask.dev/google"><img src="https://img.shields.io/badge/Search_Mate-Try_Online-FF4F8B?style=flat-square&logo=google&logoColor=white" alt="Try Search Mate" /></a>
 </p>
 
+## 🗺️ Contribution Landscape
+
+<p align="center"><sub>The contribution landscape below is generated daily from GitHub activity.</sub></p>
+
+<p align="center">
+  <img width="100%" src="./profile-3d-contrib/profile-3d-contrib.svg" alt="Tom's 3D GitHub contribution calendar" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/zxpzdtom?tab=repositories"><strong>Explore all repositories →</strong></a>
+</p>
+
 ## 🧭 Builder Map
 
 I build focused, local-first tools across browser systems, native macOS, and AI-assisted product workflows.
@@ -59,18 +71,6 @@ I build focused, local-first tools across browser systems, native macOS, and AI-
   <img src="https://skillicons.dev/icons?i=ts,js,swift,rust,react,vite,nodejs,html,css&theme=dark&perline=9" alt="Languages and frameworks" />
   <br>
   <img src="https://skillicons.dev/icons?i=cloudflare,githubactions,git,npm,pnpm,vscode,figma,apple,workers&theme=dark&perline=9" alt="Platforms and tools" />
-</p>
-
-## 🗺️ Contribution Landscape
-
-<p align="center"><sub>The contribution landscape below is generated daily from GitHub activity.</sub></p>
-
-<p align="center">
-  <img width="100%" src="./profile-3d-contrib/profile-3d-contrib.svg" alt="Tom's 3D GitHub contribution calendar" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/zxpzdtom?tab=repositories"><strong>Explore all repositories →</strong></a>
 </p>
 
 <p align="center">
