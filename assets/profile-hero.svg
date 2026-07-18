@@ -1,0 +1,91 @@
+<svg width="850" height="320" viewBox="0 0 850 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Tom — Product Engineer and Indie Maker</title>
+  <desc id="desc">A technical editorial banner about building focused tools for browsers, macOS, and AI-assisted workflows.</desc>
+  <defs>
+    <linearGradient id="accent" x1="76" y1="42" x2="782" y2="286" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C5CFF"/>
+      <stop offset="0.52" stop-color="#367BF5"/>
+      <stop offset="1" stop-color="#08B8D8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(710 74) rotate(137) scale(310 250)">
+      <stop stop-color="#7C5CFF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <style>
+    .canvas { fill: #F6F8FC; }
+    .shell { fill: #E9EDF5; stroke: #D9DFEA; }
+    .core { fill: #FFFFFF; stroke: #FFFFFF; }
+    .ink { fill: #111827; }
+    .muted { fill: #667085; }
+    .hairline { stroke: #D7DEE9; }
+    .pill { fill: #F0F3F9; stroke: #E1E6EF; }
+    .node { fill: #FFFFFF; stroke: #CBD5E1; }
+    .sans { font-family: 'Plus Jakarta Sans', 'Avenir Next', 'Segoe UI', sans-serif; }
+    .enter { animation: enter 900ms cubic-bezier(0.32,0.72,0,1) both; }
+    .delay-1 { animation-delay: 90ms; }
+    .delay-2 { animation-delay: 180ms; }
+    @keyframes enter { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+    @media (prefers-color-scheme: dark) {
+      .canvas { fill: #070A10; }
+      .shell { fill: #10151F; stroke: #1C2431; }
+      .core { fill: #0B0F17; stroke: #171E2A; }
+      .ink { fill: #F5F7FB; }
+      .muted { fill: #97A3B6; }
+      .hairline { stroke: #263142; }
+      .pill { fill: #111722; stroke: #222D3D; }
+      .node { fill: #0E1420; stroke: #2A374A; }
+    }
+    @media (prefers-reduced-motion: reduce) { .enter { animation: none; } }
+  </style>
+
+  <rect class="canvas" width="850" height="320" rx="30"/>
+  <circle cx="720" cy="52" r="188" fill="url(#glow)" filter="url(#soft)"/>
+  <rect class="shell" x="12.5" y="12.5" width="825" height="295" rx="25.5"/>
+  <rect class="core" x="18.5" y="18.5" width="813" height="283" rx="20.5"/>
+
+  <g class="enter">
+    <rect class="pill" x="48.5" y="45.5" width="222" height="28" rx="14"/>
+    <circle cx="64" cy="59.5" r="4" fill="#15B79E"/>
+    <text class="sans muted" x="77" y="64" font-size="10" font-weight="700" letter-spacing="1.5">PRODUCT ENGINEER / BUILD MODE</text>
+  </g>
+
+  <g class="enter delay-1">
+    <text class="sans ink" x="47" y="145" font-size="72" font-weight="750" letter-spacing="-4">TOM</text>
+    <rect x="48" y="163" width="62" height="5" rx="2.5" fill="url(#accent)"/>
+    <text class="sans ink" x="48" y="199" font-size="21" font-weight="650" letter-spacing="-0.5">Small tools. Sharp edges. Real workflows.</text>
+    <text class="sans muted" x="48" y="226" font-size="13.5">Turning browser, macOS, and developer friction into software worth keeping.</text>
+  </g>
+
+  <g class="enter delay-2">
+    <rect class="pill" x="48.5" y="253.5" width="129" height="30" rx="15"/>
+    <text class="sans muted" x="64" y="273" font-size="10.5" font-weight="700" letter-spacing="0.7">BROWSER SYSTEMS</text>
+    <rect class="pill" x="187.5" y="253.5" width="120" height="30" rx="15"/>
+    <text class="sans muted" x="204" y="273" font-size="10.5" font-weight="700" letter-spacing="0.7">NATIVE macOS</text>
+    <rect class="pill" x="317.5" y="253.5" width="118" height="30" rx="15"/>
+    <text class="sans muted" x="334" y="273" font-size="10.5" font-weight="700" letter-spacing="0.7">AI WORKFLOWS</text>
+  </g>
+
+  <g class="enter delay-2">
+    <line class="hairline" x1="529" y1="66" x2="529" y2="251" stroke-dasharray="3 7"/>
+    <line class="hairline" x1="529" y1="66" x2="754" y2="66" stroke-dasharray="3 7"/>
+    <line class="hairline" x1="529" y1="251" x2="754" y2="251" stroke-dasharray="3 7"/>
+    <path d="M574 215C600 215 607 180 632 180C660 180 662 111 692 111C719 111 722 151 758 151" stroke="url(#accent)" stroke-width="2.5" stroke-linecap="round"/>
+    <circle class="node" cx="574" cy="215" r="12"/>
+    <circle class="node" cx="632" cy="180" r="12"/>
+    <circle class="node" cx="692" cy="111" r="12"/>
+    <circle cx="758" cy="151" r="12" fill="url(#accent)"/>
+    <circle cx="574" cy="215" r="3.5" fill="#7C5CFF"/>
+    <circle cx="632" cy="180" r="3.5" fill="#5E6FF2"/>
+    <circle cx="692" cy="111" r="3.5" fill="#367BF5"/>
+    <path d="M754 151L757 154L763 147" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="sans muted" x="555" y="244" font-size="9.5" font-weight="700" letter-spacing="1.1">NOTICE</text>
+    <text class="sans muted" x="613" y="209" font-size="9.5" font-weight="700" letter-spacing="1.1">SHAPE</text>
+    <text class="sans muted" x="674" y="90" font-size="9.5" font-weight="700" letter-spacing="1.1">BUILD</text>
+    <text class="sans ink" x="739" y="181" font-size="9.5" font-weight="750" letter-spacing="1.1">SHIP</text>
+    <text class="sans muted" x="552" y="53" font-size="9" font-weight="700" letter-spacing="1.5">WORKFLOW / 01—04</text>
+  </g>
+</svg>

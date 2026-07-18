@@ -1,12 +1,14 @@
 # Profile maintenance
 
-The profile combines established GitHub Profile README components with two repository-owned update workflows.
+The profile combines repository-owned visual assets with three automated update workflows.
 
-## External presentation components
+## Visual system
 
-- Header and footer: `capsule-render.vercel.app`
+- Branded hero, builder map, ship log, and footer: repository-owned SVG files in `assets/`
 - Technology icons: `skillicons.dev`
 - Badges: `img.shields.io`
+
+The repository-owned visuals include matching light and dark palettes. The hero and builder map are static brand assets; the ship log is generated from live repository data.
 
 ## Featured project cards
 
@@ -16,7 +18,7 @@ Every generated card is exactly 400×140 with two reserved description lines, so
 
 ## Ship log
 
-`.github/workflows/update-profile.yml` runs every six hours. It calls `scripts/update-readme.mjs`, reads public repository and release data from GitHub, and replaces the section between the `SHIP_LOG` markers in `README.md`.
+`.github/workflows/update-profile.yml` runs every six hours. It calls `scripts/update-readme.mjs`, reads public repository and release data from GitHub, replaces the accessible details between the `SHIP_LOG` markers, and regenerates `assets/ship-log.svg`.
 
 Tracked projects are configured in the `projectLabels` map near the top of `scripts/update-readme.mjs`.
 

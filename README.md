@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7F52FF,50:4A90E2,100:00D9FF&height=190&section=header&text=Hi,%20I%27m%20Tom%20%F0%9F%91%8B&fontSize=50&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Product%20Engineer%20%C2%B7%20Indie%20Maker%20%C2%B7%20Open%20Source&descAlignY=58&descSize=17" alt="Hi, I'm Tom — Product Engineer, Indie Maker, Open Source" />
+  <img width="100%" src="./assets/profile-hero.svg" alt="Tom — Product Engineer and Indie Maker" />
 </p>
 
 <p align="center">
@@ -8,12 +8,13 @@
   <a href="https://search.anyask.dev/google"><img src="https://img.shields.io/badge/Search_Mate-Try_Online-FF4F8B?style=flat-square&logo=google&logoColor=white" alt="Try Search Mate" /></a>
 </p>
 
-## 👨‍💻 About Me
+## 🧭 Builder Map
 
-- 🔭 Building **[TabWeave](https://github.com/zxpzdtom/tabweave)**, **[MockKit](https://github.com/zxpzdtom/MockKit)**, and **[PortPilot](https://github.com/zxpzdtom/portpilot)**.
-- 🧩 I turn repetitive workflow annoyances into focused, local-first tools.
-- 🖥️ My favorite playgrounds are browser extensions, native macOS apps, developer tooling, and AI-assisted workflows.
-- 🚀 I care about products that are small enough to understand, polished enough to enjoy, and useful enough to keep installed.
+I build focused, local-first tools across browser systems, native macOS, and AI-assisted product workflows.
+
+<p align="center">
+  <img width="100%" src="./assets/builder-map.svg" alt="Builder map spanning browser systems, native macOS, and AI-assisted product workflows" />
+</p>
 
 <details>
 <summary><strong>中文简介</strong></summary>
@@ -35,20 +36,24 @@
 ## 📡 Ship Log
 
 <!-- SHIP_LOG:START -->
+<p align="center">
+  <img width="100%" src="./assets/ship-log.svg" alt="Latest releases and recently updated projects" />
+</p>
+
+<details>
+<summary><strong>Release links and exact dates</strong></summary>
+<br>
 <strong>Latest Releases</strong><br>
 • <a href="https://github.com/zxpzdtom/portpilot/releases/tag/v0.1.6"><strong>PortPilot 0.1.6</strong></a> — 2026-07-05<br>
 • <a href="https://github.com/zxpzdtom/MockKit/releases/tag/v0.1.1"><strong>MockKit v0.1.1</strong></a> — 2026-06-02
-
-<br>
 
 <strong>Recently Updated</strong><br>
 • <a href="https://github.com/zxpzdtom/dom-ai-annotator"><strong>DOM AI Annotator</strong></a> — 2026-07-12<br>
 • <a href="https://github.com/zxpzdtom/tabweave"><strong>TabWeave</strong></a> — 2026-07-11<br>
 • <a href="https://github.com/zxpzdtom/tabworks"><strong>TabWorks</strong></a> — 2026-07-06<br>
 • <a href="https://github.com/zxpzdtom/portpilot"><strong>PortPilot</strong></a> — 2026-07-05
+</details>
 <!-- SHIP_LOG:END -->
-
-<sub>Automatically refreshed every 6 hours from GitHub.</sub>
 
 ## 🧰 Languages & Tools
 
@@ -71,5 +76,5 @@
 </p>
 
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:4A90E2,100:7F52FF&height=120&section=footer" alt="Footer wave" />
+  <img width="100%" src="./assets/profile-footer.svg" alt="Make it small. Make it sharp. Ship it." />
 </p>
