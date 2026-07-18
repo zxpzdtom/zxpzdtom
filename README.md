@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" src="./assets/profile-hero.svg" alt="Tom — Product Engineer and Indie Maker" />
+  <img width="100%" src="./assets/profile-hero-v2.svg" alt="Tom — Product Engineer and Indie Maker" />
 </p>
 
 <p align="center">
