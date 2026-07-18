@@ -1,0 +1,86 @@
+<svg width="850" height="270" viewBox="0 0 850 270" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Tom — Product Engineer and Indie Maker</title>
+  <desc id="desc">A concise editorial banner about building focused tools for browsers, macOS, and AI-assisted workflows.</desc>
+  <defs>
+    <linearGradient id="accent" x1="34" y1="230" x2="814" y2="230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C5CFF"/>
+      <stop offset="0.52" stop-color="#367BF5"/>
+      <stop offset="1" stop-color="#08B8D8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(786 26) rotate(137) scale(260 210)">
+      <stop stop-color="#7C5CFF" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .canvas { fill: #F7F9FC; stroke: #DCE4EF; }
+    .ink { fill: #111827; }
+    .muted { fill: #68758A; }
+    .faint { fill: #A8B3C4; }
+    .hairline { stroke: #DCE4EE; }
+    .node { fill: #F7F9FC; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Avenir Next', 'Segoe UI', sans-serif; }
+    @media (prefers-color-scheme: dark) {
+      .canvas { fill: #0A0E15; stroke: #202A39; }
+      .ink { fill: #F4F7FB; }
+      .muted { fill: #96A3B7; }
+      .faint { fill: #4B596D; }
+      .hairline { stroke: #283448; }
+      .node { fill: #0A0E15; }
+    }
+  </style>
+
+  <rect class="canvas" x="0.5" y="0.5" width="849" height="269" rx="23.5"/>
+  <circle cx="792" cy="18" r="182" fill="url(#glow)"/>
+
+  <circle cx="35" cy="32" r="3.5" fill="#15B79E"/>
+  <text class="sans muted" x="47" y="36" font-size="9.2" font-weight="750" letter-spacing="1.55">TOM / PRODUCT ENGINEER</text>
+  <text class="sans faint" x="524" y="36" text-anchor="end" font-size="8.5" font-weight="700" letter-spacing="1.35">OPEN SOURCE · UTC+8</text>
+
+  <text class="sans ink" x="34" y="96" font-size="43" font-weight="780" letter-spacing="-2.1">Small tools.</text>
+  <text class="sans ink" x="34" y="139" font-size="43" font-weight="780" letter-spacing="-2.1">Real workflows.</text>
+  <rect x="34" y="153" width="72" height="4" rx="2" fill="url(#accent)"/>
+  <text class="sans muted" x="34" y="181" font-size="13">Focused software for recurring browser, macOS, and developer friction.</text>
+
+  <line class="hairline" x1="34" y1="216.5" x2="524" y2="216.5"/>
+  <path d="M34 216.5H524" stroke="url(#accent)" stroke-width="2" stroke-linecap="round"/>
+  <text class="sans muted" x="34" y="237" font-size="8.3" font-weight="750" letter-spacing="1.1">01</text>
+  <text class="sans ink" x="34" y="253" font-size="9.7" font-weight="700" letter-spacing="0.35">BROWSER SYSTEMS</text>
+  <text class="sans muted" x="199" y="237" font-size="8.3" font-weight="750" letter-spacing="1.1">02</text>
+  <text class="sans ink" x="199" y="253" font-size="9.7" font-weight="700" letter-spacing="0.35">NATIVE macOS</text>
+  <text class="sans muted" x="360" y="237" font-size="8.3" font-weight="750" letter-spacing="1.1">03</text>
+  <text class="sans ink" x="360" y="253" font-size="9.7" font-weight="700" letter-spacing="0.35">AI-ASSISTED CRAFT</text>
+
+  <line class="hairline" x1="560.5" y1="30" x2="560.5" y2="240"/>
+  <text class="sans muted" x="587" y="37" font-size="9" font-weight="750" letter-spacing="1.5">WORKFLOW / 01—04</text>
+  <circle cx="758" cy="33" r="3" fill="#15B79E"/>
+  <text class="sans ink" x="769" y="37" font-size="8.5" font-weight="750" letter-spacing="1.1">ACTIVE</text>
+
+  <line class="hairline" x1="603" y1="67" x2="603" y2="218"/>
+  <path d="M603 67V218" stroke="url(#accent)" stroke-width="2"/>
+
+  <g>
+    <circle class="node" cx="603" cy="76" r="8" stroke="#7C5CFF" stroke-width="2"/>
+    <circle cx="603" cy="76" r="2.5" fill="#7C5CFF"/>
+    <text class="sans faint" x="625" y="72" font-size="8" font-weight="700" letter-spacing="1">01 / OBSERVE</text>
+    <text class="sans ink" x="625" y="89" font-size="12" font-weight="720">Notice the friction</text>
+  </g>
+  <g>
+    <circle class="node" cx="603" cy="120" r="8" stroke="#5B69FA" stroke-width="2"/>
+    <circle cx="603" cy="120" r="2.5" fill="#5B69FA"/>
+    <text class="sans faint" x="625" y="116" font-size="8" font-weight="700" letter-spacing="1">02 / DECIDE</text>
+    <text class="sans ink" x="625" y="133" font-size="12" font-weight="720">Shape the smallest answer</text>
+  </g>
+  <g>
+    <circle class="node" cx="603" cy="164" r="8" stroke="#367BF5" stroke-width="2"/>
+    <circle cx="603" cy="164" r="2.5" fill="#367BF5"/>
+    <text class="sans faint" x="625" y="160" font-size="8" font-weight="700" letter-spacing="1">03 / MAKE</text>
+    <text class="sans ink" x="625" y="177" font-size="12" font-weight="720">Build the useful thing</text>
+  </g>
+  <g>
+    <circle cx="603" cy="208" r="9" fill="#08B8D8"/>
+    <path d="M599 208L602.5 211.5L608.5 204.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="sans faint" x="625" y="204" font-size="8" font-weight="700" letter-spacing="1">04 / RELEASE</text>
+    <text class="sans ink" x="625" y="221" font-size="12" font-weight="760">Ship, learn, repeat</text>
+  </g>
+</svg>

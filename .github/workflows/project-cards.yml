@@ -1,0 +1,147 @@
+name: Refresh featured project cards
+
+on:
+  schedule:
+    - cron: "7 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/project-cards.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-writes
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+
+      - name: Generate TabWeave light card
+        uses: stats-organization/github-readme-stats-action@f9d8133845f40d659a754f78b8484983ba766448 # v2.0.1
+        with:
+          card: pin
+          options: repo=tabweave&description_lines_count=2&border_radius=10&title_color=0969da&text_color=57606a&icon_color=0969da&bg_color=ffffff&border_color=d0d7de
+          path: project-cards/tabweave-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: 2.1.3
+
+      - name: Generate TabWeave dark card
+        uses: stats-organization/github-readme-stats-action@f9d8133845f40d659a754f78b8484983ba766448 # v2.0.1
+        with:
+          card: pin
+          options: repo=tabweave&description_lines_count=2&border_radius=10&title_color=58a6ff&text_color=8b949e&icon_color=58a6ff&bg_color=0d1117&border_color=30363d
+          path: project-cards/tabweave-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: 2.1.3
+
+      - name: Generate MockKit light card
+        uses: stats-organization/github-readme-stats-action@f9d8133845f40d659a754f78b8484983ba766448 # v2.0.1
+        with:
+          card: pin
+          options: repo=MockKit&description_lines_count=2&border_radius=10&title_color=0969da&text_color=57606a&icon_color=0969da&bg_color=ffffff&border_color=d0d7de
+          path: project-cards/MockKit-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: 2.1.3
+
+      - name: Generate MockKit dark card
+        uses: stats-organization/github-readme-stats-action@f9d8133845f40d659a754f78b8484983ba766448 # v2.0.1
+        with:
+          card: pin
+          options: repo=MockKit&description_lines_count=2&border_radius=10&title_color=58a6ff&text_color=8b949e&icon_color=58a6ff&bg_color=0d1117&border_color=30363d
+          path: project-cards/MockKit-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: 2.1.3
+
+      - name: Generate PortPilot light card
+        uses: stats-organization/github-readme-stats-action@f9d8133845f40d659a754f78b8484983ba766448 # v2.0.1
+        with:
+          card: pin
+          options: repo=portpilot&description_lines_count=2&border_radius=10&title_color=0969da&text_color=57606a&icon_color=0969da&bg_color=ffffff&border_color=d0d7de
+          path: project-cards/portpilot-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: 2.1.3
+
+      - name: Generate PortPilot dark card
+        uses: stats-organization/github-readme-stats-action@f9d8133845f40d659a754f78b8484983ba766448 # v2.0.1
+        with:
+          card: pin
+          options: repo=portpilot&description_lines_count=2&border_radius=10&title_color=58a6ff&text_color=8b949e&icon_color=58a6ff&bg_color=0d1117&border_color=30363d
+          path: project-cards/portpilot-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: 2.1.3
+
+      - name: Generate Search Mate light card
+        uses: stats-organization/github-readme-stats-action@f9d8133845f40d659a754f78b8484983ba766448 # v2.0.1
+        with:
+          card: pin
+          options: repo=search-mate&description_lines_count=2&border_radius=10&title_color=0969da&text_color=57606a&icon_color=0969da&bg_color=ffffff&border_color=d0d7de
+          path: project-cards/search-mate-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: 2.1.3
+
+      - name: Generate Search Mate dark card
+        uses: stats-organization/github-readme-stats-action@f9d8133845f40d659a754f78b8484983ba766448 # v2.0.1
+        with:
+          card: pin
+          options: repo=search-mate&description_lines_count=2&border_radius=10&title_color=58a6ff&text_color=8b949e&icon_color=58a6ff&bg_color=0d1117&border_color=30363d
+          path: project-cards/search-mate-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: 2.1.3
+
+      - name: Generate DOM AI Annotator light card
+        uses: stats-organization/github-readme-stats-action@f9d8133845f40d659a754f78b8484983ba766448 # v2.0.1
+        with:
+          card: pin
+          options: repo=dom-ai-annotator&description_lines_count=2&border_radius=10&title_color=0969da&text_color=57606a&icon_color=0969da&bg_color=ffffff&border_color=d0d7de
+          path: project-cards/dom-ai-annotator-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: 2.1.3
+
+      - name: Generate DOM AI Annotator dark card
+        uses: stats-organization/github-readme-stats-action@f9d8133845f40d659a754f78b8484983ba766448 # v2.0.1
+        with:
+          card: pin
+          options: repo=dom-ai-annotator&description_lines_count=2&border_radius=10&title_color=58a6ff&text_color=8b949e&icon_color=58a6ff&bg_color=0d1117&border_color=30363d
+          path: project-cards/dom-ai-annotator-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: 2.1.3
+
+      - name: Generate TabWorks light card
+        uses: stats-organization/github-readme-stats-action@f9d8133845f40d659a754f78b8484983ba766448 # v2.0.1
+        with:
+          card: pin
+          options: repo=tabworks&description_lines_count=2&border_radius=10&title_color=0969da&text_color=57606a&icon_color=0969da&bg_color=ffffff&border_color=d0d7de
+          path: project-cards/tabworks-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: 2.1.3
+
+      - name: Generate TabWorks dark card
+        uses: stats-organization/github-readme-stats-action@f9d8133845f40d659a754f78b8484983ba766448 # v2.0.1
+        with:
+          card: pin
+          options: repo=tabworks&description_lines_count=2&border_radius=10&title_color=58a6ff&text_color=8b949e&icon_color=58a6ff&bg_color=0d1117&border_color=30363d
+          path: project-cards/tabworks-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: 2.1.3
+
+      - name: Normalize generated SVG formatting
+        run: |
+          perl -pi -e 's/[ \t]+$//' project-cards/*.svg
+          perl -0pi -e 's/\A\n+//; s/\n+\z/\n/' project-cards/*.svg
+
+      - name: Publish refreshed cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add project-cards/*.svg
+          git diff --cached --quiet || git commit -m "Refresh featured project cards"
+          git push

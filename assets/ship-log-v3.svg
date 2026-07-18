@@ -1,0 +1,64 @@
+<svg width="850" height="232" viewBox="0 0 850 232" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Live product ship log</title>
+  <desc id="desc">Two featured releases and four recently updated projects, refreshed from GitHub.</desc>
+  <defs>
+    <linearGradient id="accent" x1="28" y1="49" x2="822" y2="49" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C5CFF"/>
+      <stop offset="0.5" stop-color="#367BF5"/>
+      <stop offset="1" stop-color="#08B8D8"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .canvas { fill: #F8FAFD; }
+    .ink { fill: #172033; }
+    .muted { fill: #728097; }
+    .faint { fill: #A5B0C1; }
+    .hairline { stroke: #DCE3ED; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Avenir Next', sans-serif; }
+    @media (prefers-color-scheme: dark) {
+      .canvas { fill: #080B11; }
+      .ink { fill: #F3F6FB; }
+      .muted { fill: #93A0B4; }
+      .faint { fill: #526076; }
+      .hairline { stroke: #263246; }
+    }
+  </style>
+  <rect class="canvas" width="850" height="232" rx="24"/>
+  <circle cx="30" cy="30" r="3.5" fill="#14B8A6"/>
+  <text class="sans muted" x="42" y="34" font-size="9.5" font-weight="750" letter-spacing="1.7">SHIP LOG / LIVE FROM GITHUB</text>
+  <text class="sans faint" x="702" y="34" font-size="8" font-weight="700" letter-spacing="1.25">GITHUB · REFRESH / 6H</text>
+  <line class="hairline" x1="28" y1="48.5" x2="822" y2="48.5"/>
+  <path d="M28 49H822" stroke="url(#accent)" stroke-width="2.5" stroke-linecap="round"/>
+  <text class="sans muted" x="28" y="71" font-size="9" font-weight="750" letter-spacing="1.4">LATEST RELEASES</text>
+  <line class="hairline" x1="421.5" y1="77" x2="421.5" y2="151"/>
+  <text class="sans faint" x="28" y="91" font-size="8.4" font-weight="750" letter-spacing="1.25">01 / RELEASE</text>
+      <circle cx="28" cy="112" r="3" fill="#7C5CFF"/>
+      <text class="sans ink" x="42" y="117" font-size="16" font-weight="760" letter-spacing="-0.3">PortPilot 0.1.6</text>
+      <text class="sans muted" x="42" y="139" font-size="9.5" font-weight="650">2026-07-05</text>
+      <line class="hairline" x1="28" y1="151.5" x2="407" y2="151.5"/>
+      <text class="sans faint" x="435" y="91" font-size="8.4" font-weight="750" letter-spacing="1.25">02 / RELEASE</text>
+      <circle cx="435" cy="112" r="3" fill="#367BF5"/>
+      <text class="sans ink" x="449" y="117" font-size="16" font-weight="760" letter-spacing="-0.3">MockKit v0.1.1</text>
+      <text class="sans muted" x="449" y="139" font-size="9.5" font-weight="650">2026-06-02</text>
+      <line class="hairline" x1="435" y1="151.5" x2="814" y2="151.5"/>
+  <text class="sans muted" x="28" y="173" font-size="9" font-weight="750" letter-spacing="1.4">RECENTLY UPDATED</text>
+  <line class="hairline" x1="219.5" y1="180" x2="219.5" y2="220"/>
+  <line class="hairline" x1="423.5" y1="180" x2="423.5" y2="220"/>
+  <line class="hairline" x1="627.5" y1="180" x2="627.5" y2="220"/>
+  <text class="sans faint" x="28" y="182" font-size="8" font-weight="750" letter-spacing="1.1">01</text>
+      <circle cx="29" cy="199" r="2.75" fill="#08B8D8"/>
+      <text class="sans ink" x="41" y="202.5" font-size="10.2" font-weight="720">DOM AI Annotator</text>
+      <text class="sans muted" x="41" y="218" font-size="8.5" font-weight="620">2026-07-12</text>
+      <text class="sans faint" x="231.5" y="182" font-size="8" font-weight="750" letter-spacing="1.1">02</text>
+      <circle cx="232.5" cy="199" r="2.75" fill="#08B8D8"/>
+      <text class="sans ink" x="244.5" y="202.5" font-size="10.2" font-weight="720">TabWeave</text>
+      <text class="sans muted" x="244.5" y="218" font-size="8.5" font-weight="620">2026-07-11</text>
+      <text class="sans faint" x="435" y="182" font-size="8" font-weight="750" letter-spacing="1.1">03</text>
+      <circle cx="436" cy="199" r="2.75" fill="#08B8D8"/>
+      <text class="sans ink" x="448" y="202.5" font-size="10.2" font-weight="720">TabWorks</text>
+      <text class="sans muted" x="448" y="218" font-size="8.5" font-weight="620">2026-07-06</text>
+      <text class="sans faint" x="638.5" y="182" font-size="8" font-weight="750" letter-spacing="1.1">04</text>
+      <circle cx="639.5" cy="199" r="2.75" fill="#08B8D8"/>
+      <text class="sans ink" x="651.5" y="202.5" font-size="10.2" font-weight="720">PortPilot</text>
+      <text class="sans muted" x="651.5" y="218" font-size="8.5" font-weight="620">2026-07-05</text>
+</svg>

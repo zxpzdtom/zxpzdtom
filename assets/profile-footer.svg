@@ -1,0 +1,25 @@
+<svg width="850" height="96" viewBox="0 0 850 96" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Make it small. Make it sharp. Ship it.</title>
+  <defs>
+    <linearGradient id="accent" x1="72" y1="48" x2="778" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C5CFF"/>
+      <stop offset="0.5" stop-color="#367BF5"/>
+      <stop offset="1" stop-color="#08B8D8"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .canvas { fill: #F7F9FC; stroke: #E1E7F0; }
+    .ink { fill: #172033; }
+    .muted { fill: #738096; }
+    .sans { font-family: 'Plus Jakarta Sans', 'Avenir Next', 'Segoe UI', sans-serif; }
+    @media (prefers-color-scheme: dark) {
+      .canvas { fill: #0A0E15; stroke: #1E2837; }
+      .ink { fill: #F5F7FB; }
+      .muted { fill: #8F9DB2; }
+    }
+  </style>
+  <rect class="canvas" x="0.5" y="0.5" width="849" height="95" rx="22"/>
+  <rect x="36" y="18" width="778" height="2" rx="1" fill="url(#accent)"/>
+  <text class="sans ink" x="425" y="56" text-anchor="middle" font-size="18" font-weight="720" letter-spacing="-0.2">Make it small. Make it sharp. Ship it.</text>
+  <text class="sans muted" x="425" y="76" text-anchor="middle" font-size="9.5" font-weight="700" letter-spacing="1.6">OPEN SOURCE / BUILT FROM REAL FRICTION / UPDATED CONTINUOUSLY</text>
+</svg>
