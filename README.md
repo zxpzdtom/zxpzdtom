@@ -3,12 +3,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=70A5FD&center=true&vCenter=true&random=false&width=680&lines=Building+focused+tools+for+browsers+%26+macOS;Turning+workflow+friction+into+useful+software;TypeScript+%C2%B7+Swift+%C2%B7+Rust+%C2%B7+Cloudflare;Make+it+small.+Make+it+sharp.+Ship+it." alt="Typing introduction" />
-  </a>
-</p>
-
-<p align="center">
   <a href="https://chromewebstore.google.com/detail/tabweave/pmfoefbiapldlpljfpjienjahdfmefej"><img src="https://img.shields.io/badge/TabWeave-Chrome_Web_Store-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="TabWeave on Chrome Web Store" /></a>
   <a href="https://portpilot.anyask.dev"><img src="https://img.shields.io/badge/PortPilot-macOS_App-000000?style=flat-square&logo=apple&logoColor=white" alt="PortPilot for macOS" /></a>
   <a href="https://search.anyask.dev/google"><img src="https://img.shields.io/badge/Search_Mate-Try_Online-FF4F8B?style=flat-square&logo=google&logoColor=white" alt="Try Search Mate" /></a>
@@ -39,22 +33,17 @@
 ## 📡 Ship Log
 
 <!-- SHIP_LOG:START -->
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-<strong>Latest Releases</strong><br><br>
+<strong>Latest Releases</strong><br>
 • <a href="https://github.com/zxpzdtom/portpilot/releases/tag/v0.1.6"><strong>PortPilot 0.1.6</strong></a> — 2026-07-05<br>
 • <a href="https://github.com/zxpzdtom/MockKit/releases/tag/v0.1.1"><strong>MockKit v0.1.1</strong></a> — 2026-06-02
-</td>
-<td width="50%" valign="top">
-<strong>Recently Updated</strong><br><br>
+
+<br>
+
+<strong>Recently Updated</strong><br>
 • <a href="https://github.com/zxpzdtom/dom-ai-annotator"><strong>DOM AI Annotator</strong></a> — 2026-07-12<br>
 • <a href="https://github.com/zxpzdtom/tabweave"><strong>TabWeave</strong></a> — 2026-07-11<br>
 • <a href="https://github.com/zxpzdtom/tabworks"><strong>TabWorks</strong></a> — 2026-07-06<br>
 • <a href="https://github.com/zxpzdtom/portpilot"><strong>PortPilot</strong></a> — 2026-07-05
-</td>
-</tr>
-</table>
 <!-- SHIP_LOG:END -->
 
 <sub>Automatically refreshed every 6 hours from GitHub.</sub>
@@ -67,12 +56,7 @@
   <img src="https://skillicons.dev/icons?i=cloudflare,githubactions,git,npm,pnpm,vscode,figma,apple,workers&theme=dark&perline=9" alt="Platforms and tools" />
 </p>
 
-## 📊 Code & Contributions
-
-<p align="center">
-  <img width="49%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=zxpzdtom&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top languages" />
-  <img width="49%" src="https://streak-stats.demolab.com?user=zxpzdtom&theme=tokyonight&hide_border=true&date_format=%5BY.%5Dn.j&card_width=480" alt="GitHub contribution streak" />
-</p>
+## 🗺️ Contribution Landscape
 
 <p align="center"><sub>The contribution landscape below is generated daily from GitHub activity.</sub></p>
 

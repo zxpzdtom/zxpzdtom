@@ -83,18 +83,13 @@ const updateLines = recentlyUpdated.map((repo) =>
 );
 
 const shipLog = `<!-- SHIP_LOG:START -->
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-<strong>Latest Releases</strong><br><br>
+<strong>Latest Releases</strong><br>
 ${releaseLines.join("<br>\n")}
-</td>
-<td width="50%" valign="top">
-<strong>Recently Updated</strong><br><br>
+
+<br>
+
+<strong>Recently Updated</strong><br>
 ${updateLines.join("<br>\n")}
-</td>
-</tr>
-</table>
 <!-- SHIP_LOG:END -->`;
 
 const readme = await readFile(readmePath, "utf8");

@@ -5,13 +5,11 @@ The profile combines established GitHub Profile README components with two repos
 ## External presentation components
 
 - Header and footer: `capsule-render.vercel.app`
-- Typing introduction: `readme-typing-svg.demolab.com`
-- Repository cards and language analytics: `github-stats-extended.vercel.app`
-- Contribution streak: `streak-stats.demolab.com`
+- Repository cards: `github-stats-extended.vercel.app`
 - Technology icons: `skillicons.dev`
 - Badges: `img.shields.io`
 
-The public `github-readme-stats.vercel.app` deployment returned HTTP 503 during implementation, so the verified compatible deployment is used for repository and language cards.
+The public `github-readme-stats.vercel.app` deployment returned HTTP 503 during implementation, so the verified compatible deployment is used for repository cards.
 
 ## Ship log
 
