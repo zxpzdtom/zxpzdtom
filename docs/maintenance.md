@@ -5,11 +5,14 @@ The profile combines established GitHub Profile README components with two repos
 ## External presentation components
 
 - Header and footer: `capsule-render.vercel.app`
-- Repository cards: `github-stats-extended.vercel.app`
 - Technology icons: `skillicons.dev`
 - Badges: `img.shields.io`
 
-The public `github-readme-stats.vercel.app` deployment returned HTTP 503 during implementation, so the verified compatible deployment is used for repository cards.
+## Featured project cards
+
+`.github/workflows/project-cards.yml` uses `stats-organization/github-readme-stats-action` once a day to generate six repository cards in matching GitHub light and dark palettes.
+
+Every generated card is exactly 400×140 with two reserved description lines, so the language, star, and fork rows stay aligned even when description lengths differ. The SVGs are stored in `project-cards/` and do not depend on a runtime image service.
 
 ## Ship log
 
@@ -23,8 +26,8 @@ Tracked projects are configured in the `projectLabels` map near the top of `scri
 
 This component uses the repository's built-in `GITHUB_TOKEN`; no personal access token or third-party runtime image service is required.
 
-Both workflows share the `profile-writes` concurrency group to prevent simultaneous bot pushes.
+All three workflows share the `profile-writes` concurrency group to prevent simultaneous bot pushes.
 
 ## Manual refresh
 
-Open **Actions** and run either **Refresh profile content** or **Refresh 3D contribution graph**.
+Open **Actions** and run **Refresh profile content**, **Refresh featured project cards**, or **Refresh 3D contribution graph**.

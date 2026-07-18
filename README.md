@@ -24,10 +24,12 @@
 ## 🚀 Featured Projects
 
 <p align="center">
-  <a href="https://github.com/zxpzdtom/tabweave"><img width="49%" src="https://github-stats-extended.vercel.app/api/pin/?username=zxpzdtom&repo=tabweave&theme=tokyonight&hide_border=true" alt="TabWeave repository card" /></a>
-  <a href="https://github.com/zxpzdtom/MockKit"><img width="49%" src="https://github-stats-extended.vercel.app/api/pin/?username=zxpzdtom&repo=MockKit&theme=tokyonight&hide_border=true" alt="MockKit repository card" /></a>
-  <a href="https://github.com/zxpzdtom/portpilot"><img width="49%" src="https://github-stats-extended.vercel.app/api/pin/?username=zxpzdtom&repo=portpilot&theme=tokyonight&hide_border=true" alt="PortPilot repository card" /></a>
-  <a href="https://github.com/zxpzdtom/search-mate"><img width="49%" src="https://github-stats-extended.vercel.app/api/pin/?username=zxpzdtom&repo=search-mate&theme=tokyonight&hide_border=true" alt="Search Mate repository card" /></a>
+  <a href="https://github.com/zxpzdtom/tabweave"><picture><source media="(prefers-color-scheme: dark)" srcset="./project-cards/tabweave-dark.svg"><img width="49%" src="./project-cards/tabweave-light.svg" alt="TabWeave — rule-driven Chrome tab grouping" /></picture></a>
+  <a href="https://github.com/zxpzdtom/MockKit"><picture><source media="(prefers-color-scheme: dark)" srcset="./project-cards/MockKit-dark.svg"><img width="49%" src="./project-cards/MockKit-light.svg" alt="MockKit — Chrome DevTools Local Overrides manager" /></picture></a>
+  <a href="https://github.com/zxpzdtom/portpilot"><picture><source media="(prefers-color-scheme: dark)" srcset="./project-cards/portpilot-dark.svg"><img width="49%" src="./project-cards/portpilot-light.svg" alt="PortPilot — native macOS port monitor" /></picture></a>
+  <a href="https://github.com/zxpzdtom/search-mate"><picture><source media="(prefers-color-scheme: dark)" srcset="./project-cards/search-mate-dark.svg"><img width="49%" src="./project-cards/search-mate-light.svg" alt="Search Mate — playful search-sharing links" /></picture></a>
+  <a href="https://github.com/zxpzdtom/dom-ai-annotator"><picture><source media="(prefers-color-scheme: dark)" srcset="./project-cards/dom-ai-annotator-dark.svg"><img width="49%" src="./project-cards/dom-ai-annotator-light.svg" alt="DOM AI Annotator — AI-ready UI review feedback" /></picture></a>
+  <a href="https://github.com/zxpzdtom/tabworks"><picture><source media="(prefers-color-scheme: dark)" srcset="./project-cards/tabworks-dark.svg"><img width="49%" src="./project-cards/tabworks-light.svg" alt="TabWorks — local browser automation bridge" /></picture></a>
 </p>
 
 ## 📡 Ship Log
