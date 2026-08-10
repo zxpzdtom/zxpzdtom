@@ -65,10 +65,10 @@ I build focused, local-first tools across browser systems, native macOS, and AI-
 <hr>
 <p><strong>RECENTLY UPDATED</strong></p>
 <p>
+<kbd>UPDATED</kbd>&nbsp; <a href="https://github.com/zxpzdtom/MockKit"><strong>MockKit</strong></a>&nbsp; <code>2026-08-10</code><br>
 <kbd>UPDATED</kbd>&nbsp; <a href="https://github.com/zxpzdtom/dom-ai-annotator"><strong>DOM AI Annotator</strong></a>&nbsp; <code>2026-07-12</code><br>
 <kbd>UPDATED</kbd>&nbsp; <a href="https://github.com/zxpzdtom/tabweave"><strong>TabWeave</strong></a>&nbsp; <code>2026-07-11</code><br>
-<kbd>UPDATED</kbd>&nbsp; <a href="https://github.com/zxpzdtom/tabworks"><strong>TabWorks</strong></a>&nbsp; <code>2026-07-06</code><br>
-<kbd>UPDATED</kbd>&nbsp; <a href="https://github.com/zxpzdtom/portpilot"><strong>PortPilot</strong></a>&nbsp; <code>2026-07-05</code>
+<kbd>UPDATED</kbd>&nbsp; <a href="https://github.com/zxpzdtom/tabworks"><strong>TabWorks</strong></a>&nbsp; <code>2026-07-06</code>
 </p>
 <p><sub>Automatically refreshed from GitHub every six hours.</sub></p>
 </blockquote>
