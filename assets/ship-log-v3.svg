@@ -47,18 +47,18 @@
   <line class="hairline" x1="627.5" y1="180" x2="627.5" y2="220"/>
   <text class="sans faint" x="28" y="182" font-size="8" font-weight="750" letter-spacing="1.1">01</text>
       <circle cx="29" cy="199" r="2.75" fill="#08B8D8"/>
-      <text class="sans ink" x="41" y="202.5" font-size="10.2" font-weight="720">MockKit</text>
-      <text class="sans muted" x="41" y="218" font-size="8.5" font-weight="620">2026-08-10</text>
+      <text class="sans ink" x="41" y="202.5" font-size="10.2" font-weight="720">TabWorks</text>
+      <text class="sans muted" x="41" y="218" font-size="8.5" font-weight="620">2026-09-02</text>
       <text class="sans faint" x="231.5" y="182" font-size="8" font-weight="750" letter-spacing="1.1">02</text>
       <circle cx="232.5" cy="199" r="2.75" fill="#08B8D8"/>
-      <text class="sans ink" x="244.5" y="202.5" font-size="10.2" font-weight="720">DOM AI Annotator</text>
-      <text class="sans muted" x="244.5" y="218" font-size="8.5" font-weight="620">2026-07-12</text>
+      <text class="sans ink" x="244.5" y="202.5" font-size="10.2" font-weight="720">MockKit</text>
+      <text class="sans muted" x="244.5" y="218" font-size="8.5" font-weight="620">2026-08-10</text>
       <text class="sans faint" x="435" y="182" font-size="8" font-weight="750" letter-spacing="1.1">03</text>
       <circle cx="436" cy="199" r="2.75" fill="#08B8D8"/>
-      <text class="sans ink" x="448" y="202.5" font-size="10.2" font-weight="720">TabWeave</text>
-      <text class="sans muted" x="448" y="218" font-size="8.5" font-weight="620">2026-07-11</text>
+      <text class="sans ink" x="448" y="202.5" font-size="10.2" font-weight="720">DOM AI Annotator</text>
+      <text class="sans muted" x="448" y="218" font-size="8.5" font-weight="620">2026-07-12</text>
       <text class="sans faint" x="638.5" y="182" font-size="8" font-weight="750" letter-spacing="1.1">04</text>
       <circle cx="639.5" cy="199" r="2.75" fill="#08B8D8"/>
-      <text class="sans ink" x="651.5" y="202.5" font-size="10.2" font-weight="720">TabWorks</text>
-      <text class="sans muted" x="651.5" y="218" font-size="8.5" font-weight="620">2026-07-06</text>
+      <text class="sans ink" x="651.5" y="202.5" font-size="10.2" font-weight="720">TabWeave</text>
+      <text class="sans muted" x="651.5" y="218" font-size="8.5" font-weight="620">2026-07-11</text>
 </svg>
