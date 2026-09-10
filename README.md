@@ -59,14 +59,14 @@ I build focused, local-first tools across browser systems, native macOS, and AI-
 <blockquote>
 <p><strong>LATEST RELEASES</strong></p>
 <p>
-<kbd>RELEASE</kbd>&nbsp; <a href="https://github.com/zxpzdtom/portpilot/releases/tag/v0.1.6"><strong>PortPilot 0.1.6</strong></a>&nbsp; <code>2026-07-05</code><br>
-<kbd>RELEASE</kbd>&nbsp; <a href="https://github.com/zxpzdtom/MockKit/releases/tag/v0.1.1"><strong>MockKit v0.1.1</strong></a>&nbsp; <code>2026-06-02</code>
+<kbd>RELEASE</kbd>&nbsp; <a href="https://github.com/zxpzdtom/MockKit/releases/tag/v0.1.2"><strong>MockKit v0.1.2</strong></a>&nbsp; <code>2026-09-10</code><br>
+<kbd>RELEASE</kbd>&nbsp; <a href="https://github.com/zxpzdtom/portpilot/releases/tag/v0.1.6"><strong>PortPilot 0.1.6</strong></a>&nbsp; <code>2026-07-05</code>
 </p>
 <hr>
 <p><strong>RECENTLY UPDATED</strong></p>
 <p>
+<kbd>UPDATED</kbd>&nbsp; <a href="https://github.com/zxpzdtom/MockKit"><strong>MockKit</strong></a>&nbsp; <code>2026-09-10</code><br>
 <kbd>UPDATED</kbd>&nbsp; <a href="https://github.com/zxpzdtom/tabworks"><strong>TabWorks</strong></a>&nbsp; <code>2026-09-02</code><br>
-<kbd>UPDATED</kbd>&nbsp; <a href="https://github.com/zxpzdtom/MockKit"><strong>MockKit</strong></a>&nbsp; <code>2026-08-10</code><br>
 <kbd>UPDATED</kbd>&nbsp; <a href="https://github.com/zxpzdtom/dom-ai-annotator"><strong>DOM AI Annotator</strong></a>&nbsp; <code>2026-07-12</code><br>
 <kbd>UPDATED</kbd>&nbsp; <a href="https://github.com/zxpzdtom/tabweave"><strong>TabWeave</strong></a>&nbsp; <code>2026-07-11</code>
 </p>
