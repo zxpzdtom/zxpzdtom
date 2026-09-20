@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="92" viewBox="0 0 850 92" role="img" aria-labelledby="title desc">
+  <title id="title">Small tools for real workflows</title>
+  <desc id="desc">Keep tabs in order. Know what's using that port. Turn UI notes into action.</desc>
+  <defs>
+    <linearGradient id="accent" x1="28" y1="45" x2="822" y2="45" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C5CFF"/><stop offset="0.5" stop-color="#367BF5"/><stop offset="1" stop-color="#08B8D8"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .canvas { fill: #F8FAFD; stroke: #DCE4EF; }
+    .label { fill: #68758A; }
+    .quiet { fill: #8C99AD; }
+    .line { fill: #172033; font: 600 18px SFMono-Regular, Consolas, 'Liberation Mono', monospace; }
+    .prompt, .caret { fill: #367BF5; }
+    .meta { font-family: -apple-system, BlinkMacSystemFont, 'Avenir Next', sans-serif; }
+    @media (prefers-color-scheme: dark) {
+      .canvas { fill: #090D14; stroke: #263247; }
+      .label { fill: #97A4B8; }
+      .quiet { fill: #64748B; }
+      .line { fill: #F3F6FB; }
+      .prompt, .caret { fill: #70A5FF; }
+    }
+  </style>
+  <rect class="canvas" x="0.5" y="0.5" width="849" height="91" rx="19.5"/>
+  <circle cx="30" cy="25" r="3.5" fill="#14B8A6"/>
+  <text class="meta label" x="42" y="29" font-size="9" font-weight="750" letter-spacing="1.5">EVERYDAY DEVELOPMENT / THREE SMALL FIXES</text>
+  <text class="meta quiet" x="684" y="29" font-size="8.5" font-weight="700" letter-spacing="1.1">BROWSER · macOS · UI</text>
+  <path d="M28 45H822" stroke="url(#accent)" stroke-width="2.5" stroke-linecap="round"/>
+  <text class="prompt" x="28" y="76" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="19" font-weight="700">&gt;</text>
+  <text class="line" x="54" y="76">Keep tabs in order.</text>
+</svg>

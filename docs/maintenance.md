@@ -2,7 +2,11 @@
 
 The profile keeps the branded hero, product badges, contribution landscape, language icons, and Builder Map at the top. Six featured project cards and a compact ship log follow them.
 
-The hero, Builder Map, and footer are repository-owned SVGs in `assets/`. The product badges use `img.shields.io`, and the language icons use `skillicons.dev`. The contribution landscape uses the generated SVG described below.
+The hero, Builder Map, typing strip, and footer are repository-owned SVGs in `assets/`. The product badges use `img.shields.io`, and the language icons use `skillicons.dev`. The contribution landscape uses the generated SVG described below.
+
+## Typing strip
+
+`scripts/generate-typing-svg.mjs` owns the three phrases between Builder Map and Featured Projects. It writes an animated SVG and a still image selected for visitors who prefer reduced motion. Edit the phrases in the script, then run `node scripts/generate-typing-svg.mjs` and `node scripts/generate-typing-svg.mjs --check`.
 
 ## Project cards
 

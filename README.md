@@ -36,7 +36,12 @@ I build focused, local-first tools across browser systems, native macOS, and AI-
   <img width="100%" src="./assets/builder-map-v3.svg" alt="Builder map spanning browser systems, native macOS, and AI-assisted product workflows" />
 </p>
 
-The projects below tackle three recurring annoyances: tab overload, local debugging friction, and feedback that gets lost between design and code.
+<p align="center">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/typing-focus-static.svg" />
+    <img width="100%" src="./assets/typing-focus.svg" alt="Typing animation: Keep tabs in order. Know what's using that port. Turn UI notes into action." />
+  </picture>
+</p>
 
 ## 🚀 Featured Projects
 

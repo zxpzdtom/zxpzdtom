@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="92" viewBox="0 0 850 92" role="img" aria-labelledby="title desc">
+  <title id="title">Small tools for real workflows</title>
+  <desc id="desc">Keep tabs in order. Know what's using that port. Turn UI notes into action.</desc>
+  <defs>
+    <linearGradient id="accent" x1="28" y1="45" x2="822" y2="45" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C5CFF"/><stop offset="0.5" stop-color="#367BF5"/><stop offset="1" stop-color="#08B8D8"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .canvas { fill: #F8FAFD; stroke: #DCE4EF; }
+    .label { fill: #68758A; }
+    .quiet { fill: #8C99AD; }
+    .line { fill: #172033; font: 600 18px SFMono-Regular, Consolas, 'Liberation Mono', monospace; }
+    .prompt, .caret { fill: #367BF5; }
+    .meta { font-family: -apple-system, BlinkMacSystemFont, 'Avenir Next', sans-serif; }
+    @media (prefers-color-scheme: dark) {
+      .canvas { fill: #090D14; stroke: #263247; }
+      .label { fill: #97A4B8; }
+      .quiet { fill: #64748B; }
+      .line { fill: #F3F6FB; }
+      .prompt, .caret { fill: #70A5FF; }
+    }
+  </style>
+  <rect class="canvas" x="0.5" y="0.5" width="849" height="91" rx="19.5"/>
+  <circle cx="30" cy="25" r="3.5" fill="#14B8A6"/>
+  <text class="meta label" x="42" y="29" font-size="9" font-weight="750" letter-spacing="1.5">EVERYDAY DEVELOPMENT / THREE SMALL FIXES</text>
+  <text class="meta quiet" x="684" y="29" font-size="8.5" font-weight="700" letter-spacing="1.1">BROWSER · macOS · UI</text>
+  <path d="M28 45H822" stroke="url(#accent)" stroke-width="2.5" stroke-linecap="round"/>
+  <text class="prompt" x="28" y="76" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="19" font-weight="700">&gt;</text>
+  <clipPath id="line-1"><rect x="54" y="56" width="205.20" height="27"><animate attributeName="width" values="0;10.8;21.6;32.4;43.2;54;64.8;75.6;86.4;97.2;108;118.8;129.6;140.4;151.2;162;172.8;183.6;194.4;205.2;205.2;0;0" keyTimes="0;0.01605;0.02211;0.02816;0.03421;0.04026;0.04632;0.05237;0.05842;0.06447;0.07053;0.07658;0.08263;0.08868;0.09474;0.10079;0.10684;0.11289;0.11895;0.125;0.3125;0.32333;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/></rect></clipPath>
+  <text class="line" x="54" y="76" clip-path="url(#line-1)">Keep tabs in order.</text>
+  <g opacity="1"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.00083;0.32333;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/><rect class="caret" x="261.20" y="59" width="2.5" height="19" rx="1"><animate attributeName="x" values="56;66.8;77.6;88.4;99.2;110;120.8;131.6;142.4;153.2;164;174.8;185.6;196.4;207.2;218;228.8;239.6;250.4;261.2;261.2;56;56" keyTimes="0;0.01605;0.02211;0.02816;0.03421;0.04026;0.04632;0.05237;0.05842;0.06447;0.07053;0.07658;0.08263;0.08868;0.09474;0.10079;0.10684;0.11289;0.11895;0.125;0.3125;0.32333;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/></rect></g>
+  <clipPath id="line-2"><rect x="54" y="56" width="0" height="27"><animate attributeName="width" values="0;0;10.8;21.6;32.4;43.2;54;64.8;75.6;86.4;97.2;108;118.8;129.6;140.4;151.2;162;172.8;183.6;194.4;205.2;216;226.8;237.6;248.4;259.2;270;280.8;291.6;302.4;302.4;0;0" keyTimes="0;0.33333;0.34744;0.35155;0.35565;0.35976;0.36387;0.36798;0.37208;0.37619;0.3803;0.3844;0.38851;0.39262;0.39673;0.40083;0.40494;0.40905;0.41315;0.41726;0.42137;0.42548;0.42958;0.43369;0.4378;0.4419;0.44601;0.45012;0.45423;0.45833;0.64583;0.65667;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/></rect></clipPath>
+  <text class="line" x="54" y="76" clip-path="url(#line-2)">Know what's using that port.</text>
+  <g opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.33417;0.65667;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/><rect class="caret" x="358.40" y="59" width="2.5" height="19" rx="1"><animate attributeName="x" values="56;56;66.8;77.6;88.4;99.2;110;120.8;131.6;142.4;153.2;164;174.8;185.6;196.4;207.2;218;228.8;239.6;250.4;261.2;272;282.8;293.6;304.4;315.2;326;336.8;347.6;358.4;358.4;56;56" keyTimes="0;0.33333;0.34744;0.35155;0.35565;0.35976;0.36387;0.36798;0.37208;0.37619;0.3803;0.3844;0.38851;0.39262;0.39673;0.40083;0.40494;0.40905;0.41315;0.41726;0.42137;0.42548;0.42958;0.43369;0.4378;0.4419;0.44601;0.45012;0.45423;0.45833;0.64583;0.65667;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/></rect></g>
+  <clipPath id="line-3"><rect x="54" y="56" width="0" height="27"><animate attributeName="width" values="0;0;10.8;21.6;32.4;43.2;54;64.8;75.6;86.4;97.2;108;118.8;129.6;140.4;151.2;162;172.8;183.6;194.4;205.2;216;226.8;237.6;248.4;259.2;270;280.8;280.8;0;0" keyTimes="0;0.66667;0.68109;0.68551;0.68994;0.69436;0.69878;0.70321;0.70763;0.71205;0.71647;0.7209;0.72532;0.72974;0.73417;0.73859;0.74301;0.74744;0.75186;0.75628;0.76071;0.76513;0.76955;0.77397;0.7784;0.78282;0.78724;0.79167;0.97917;0.99;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/></rect></clipPath>
+  <text class="line" x="54" y="76" clip-path="url(#line-3)">Turn UI notes into action.</text>
+  <g opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.6675;0.99;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/><rect class="caret" x="336.80" y="59" width="2.5" height="19" rx="1"><animate attributeName="x" values="56;56;66.8;77.6;88.4;99.2;110;120.8;131.6;142.4;153.2;164;174.8;185.6;196.4;207.2;218;228.8;239.6;250.4;261.2;272;282.8;293.6;304.4;315.2;326;336.8;336.8;56;56" keyTimes="0;0.66667;0.68109;0.68551;0.68994;0.69436;0.69878;0.70321;0.70763;0.71205;0.71647;0.7209;0.72532;0.72974;0.73417;0.73859;0.74301;0.74744;0.75186;0.75628;0.76071;0.76513;0.76955;0.77397;0.7784;0.78282;0.78724;0.79167;0.97917;0.99;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/></rect></g>
+</svg>
