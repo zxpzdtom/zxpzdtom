@@ -36,42 +36,27 @@ I build focused, local-first tools across browser systems, native macOS, and AI-
   <img width="100%" src="./assets/builder-map-v3.svg" alt="Builder map spanning browser systems, native macOS, and AI-assisted product workflows" />
 </p>
 
+The projects below tackle three recurring annoyances: tab overload, local debugging friction, and feedback that gets lost between design and code.
+
 ## 🚀 Featured Projects
 
 <p align="center">
-  <a href="https://github.com/zxpzdtom/tabweave"><picture><source media="(prefers-color-scheme: dark)" srcset="./project-cards/tabweave-dark.svg"><img width="49%" src="./project-cards/tabweave-light.svg" alt="TabWeave — rule-driven Chrome tab grouping" /></picture></a>
-  <a href="https://github.com/zxpzdtom/MockKit"><picture><source media="(prefers-color-scheme: dark)" srcset="./project-cards/MockKit-dark.svg"><img width="49%" src="./project-cards/MockKit-light.svg" alt="MockKit — Chrome DevTools Local Overrides manager" /></picture></a>
-  <a href="https://github.com/zxpzdtom/portpilot"><picture><source media="(prefers-color-scheme: dark)" srcset="./project-cards/portpilot-dark.svg"><img width="49%" src="./project-cards/portpilot-light.svg" alt="PortPilot — native macOS port monitor" /></picture></a>
-  <a href="https://github.com/zxpzdtom/search-mate"><picture><source media="(prefers-color-scheme: dark)" srcset="./project-cards/search-mate-dark.svg"><img width="49%" src="./project-cards/search-mate-light.svg" alt="Search Mate — playful search-sharing links" /></picture></a>
-  <a href="https://github.com/zxpzdtom/dom-ai-annotator"><picture><source media="(prefers-color-scheme: dark)" srcset="./project-cards/dom-ai-annotator-dark.svg"><img width="49%" src="./project-cards/dom-ai-annotator-light.svg" alt="DOM AI Annotator — AI-ready UI review feedback" /></picture></a>
-  <a href="https://github.com/zxpzdtom/tabworks"><picture><source media="(prefers-color-scheme: dark)" srcset="./project-cards/tabworks-dark.svg"><img width="49%" src="./project-cards/tabworks-light.svg" alt="TabWorks — local browser automation bridge" /></picture></a>
+  <a href="https://github.com/zxpzdtom/tabweave"><picture><source media="(prefers-color-scheme: dark)" srcset="./project-cards/tabweave-dark.svg"><img width="400" src="./project-cards/tabweave-light.svg" alt="TabWeave — rule-driven Chrome tab grouping" /></picture></a>
+  <a href="https://github.com/zxpzdtom/portpilot"><picture><source media="(prefers-color-scheme: dark)" srcset="./project-cards/portpilot-dark.svg"><img width="400" src="./project-cards/portpilot-light.svg" alt="PortPilot — macOS menu bar port monitor" /></picture></a>
+  <a href="https://github.com/zxpzdtom/MockKit"><picture><source media="(prefers-color-scheme: dark)" srcset="./project-cards/MockKit-dark.svg"><img width="400" src="./project-cards/MockKit-light.svg" alt="MockKit — Chrome DevTools Local Overrides manager" /></picture></a>
+  <a href="https://github.com/zxpzdtom/dom-ai-annotator"><picture><source media="(prefers-color-scheme: dark)" srcset="./project-cards/dom-ai-annotator-dark.svg"><img width="400" src="./project-cards/dom-ai-annotator-light.svg" alt="DOM AI Annotator — UI review and AI-ready feedback" /></picture></a>
+  <a href="https://github.com/zxpzdtom/tabworks"><picture><source media="(prefers-color-scheme: dark)" srcset="./project-cards/tabworks-dark.svg"><img width="400" src="./project-cards/tabworks-light.svg" alt="TabWorks — local browser workflow recording and replay" /></picture></a>
+  <a href="https://github.com/zxpzdtom/search-mate"><picture><source media="(prefers-color-scheme: dark)" srcset="./project-cards/search-mate-dark.svg"><img width="400" src="./project-cards/search-mate-light.svg" alt="Search Mate — shareable Google and Baidu searches" /></picture></a>
 </p>
 
 ## 📡 Ship Log
 
 <!-- SHIP_LOG:START -->
-<p align="center">
-  <img width="100%" src="./assets/ship-log-v3.svg" alt="Latest releases and recently updated projects" />
-</p>
+**Latest releases:** [MockKit v0.1.2](https://github.com/zxpzdtom/MockKit/releases/tag/v0.1.2) <sub>2026-09-10</sub> · [PortPilot 0.1.6](https://github.com/zxpzdtom/portpilot/releases/tag/v0.1.6) <sub>2026-07-05</sub>
 
-### 🔗 Release & Activity Index
+**Recently updated:** [DOM AI Annotator](https://github.com/zxpzdtom/dom-ai-annotator) <sub>2026-09-14</sub> · [TabWorks](https://github.com/zxpzdtom/tabworks) <sub>2026-09-13</sub> · [MockKit](https://github.com/zxpzdtom/MockKit) <sub>2026-09-10</sub> · [TabWeave](https://github.com/zxpzdtom/tabweave) <sub>2026-07-11</sub>
 
-<blockquote>
-<p><strong>LATEST RELEASES</strong></p>
-<p>
-<kbd>RELEASE</kbd>&nbsp; <a href="https://github.com/zxpzdtom/MockKit/releases/tag/v0.1.2"><strong>MockKit v0.1.2</strong></a>&nbsp; <code>2026-09-10</code><br>
-<kbd>RELEASE</kbd>&nbsp; <a href="https://github.com/zxpzdtom/portpilot/releases/tag/v0.1.6"><strong>PortPilot 0.1.6</strong></a>&nbsp; <code>2026-07-05</code>
-</p>
-<hr>
-<p><strong>RECENTLY UPDATED</strong></p>
-<p>
-<kbd>UPDATED</kbd>&nbsp; <a href="https://github.com/zxpzdtom/dom-ai-annotator"><strong>DOM AI Annotator</strong></a>&nbsp; <code>2026-09-14</code><br>
-<kbd>UPDATED</kbd>&nbsp; <a href="https://github.com/zxpzdtom/tabworks"><strong>TabWorks</strong></a>&nbsp; <code>2026-09-13</code><br>
-<kbd>UPDATED</kbd>&nbsp; <a href="https://github.com/zxpzdtom/MockKit"><strong>MockKit</strong></a>&nbsp; <code>2026-09-10</code><br>
-<kbd>UPDATED</kbd>&nbsp; <a href="https://github.com/zxpzdtom/tabweave"><strong>TabWeave</strong></a>&nbsp; <code>2026-07-11</code>
-</p>
-<p><sub>Automatically refreshed from GitHub every six hours.</sub></p>
-</blockquote>
+<sub>Refreshed from GitHub every six hours.</sub>
 <!-- SHIP_LOG:END -->
 
 <p align="center">

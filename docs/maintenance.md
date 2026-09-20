@@ -1,35 +1,30 @@
 # Profile maintenance
 
-The profile combines repository-owned visual assets with three automated update workflows.
+The profile keeps the branded hero, product badges, contribution landscape, language icons, and Builder Map at the top. Six featured project cards and a compact ship log follow them.
 
-## Visual system
+The hero, Builder Map, and footer are repository-owned SVGs in `assets/`. The product badges use `img.shields.io`, and the language icons use `skillicons.dev`. The contribution landscape uses the generated SVG described below.
 
-- Branded hero, builder map, ship log, and footer: repository-owned SVG files in `assets/`
-- Technology icons: `skillicons.dev`
-- Badges: `img.shields.io`
+## Project cards
 
-The repository-owned visuals include matching light and dark palettes. The hero and builder map are static brand assets; the ship log is generated from live repository data.
+The cards are repository-owned SVG files in `project-cards/`. They have light and dark variants and do not call an image service at display time. Their copy is defined in `scripts/generate-project-cards.mjs`.
 
-## Featured project cards
+When a product description, category, or technology changes, edit that script and run:
 
-`.github/workflows/project-cards.yml` uses `stats-organization/github-readme-stats-action` once a day to generate six repository cards in matching GitHub light and dark palettes.
+```sh
+node scripts/generate-project-cards.mjs
+node scripts/generate-project-cards.mjs --check
+```
 
-Every generated card is exactly 400×140 with two reserved description lines, so the language, star, and fork rows stay aligned even when description lengths differ. The SVGs are stored in `project-cards/` and do not depend on a runtime image service.
+The generator's descriptions are curated, not fetched from GitHub. Check each project's current README and homepage before changing its copy.
 
-## Ship log
+## Recent work
 
-`.github/workflows/update-profile.yml` runs every six hours. It calls `scripts/update-readme.mjs`, reads public repository and release data from GitHub, replaces the accessible details between the `SHIP_LOG` markers, and regenerates `assets/ship-log.svg`.
+`.github/workflows/update-profile.yml` runs every six hours. `scripts/update-readme.mjs` reads public repository and release data from GitHub and replaces only the text between the `SHIP_LOG` markers in `README.md`. Tracked projects are configured in the `projectLabels` map.
 
-Tracked projects are configured in the `projectLabels` map near the top of `scripts/update-readme.mjs`.
+Run **Refresh profile content** in GitHub Actions to update this section immediately. A failed API request stops the job without rewriting the README.
 
-## 3D contribution calendar
+## Contribution calendar
 
-`.github/workflows/profile-3d.yml` uses `yoshi389111/github-profile-3d-contrib` once a day. It writes a responsive light/dark SVG to `profile-3d-contrib/profile-3d-contrib.svg` using `profile-3d-settings.json`.
+`.github/workflows/profile-3d.yml` generates `profile-3d-contrib/profile-3d-contrib.svg` daily. Run **Refresh 3D contribution graph** in GitHub Actions to update it immediately.
 
-This component uses the repository's built-in `GITHUB_TOKEN`; no personal access token or third-party runtime image service is required.
-
-All three workflows share the `profile-writes` concurrency group to prevent simultaneous bot pushes.
-
-## Manual refresh
-
-Open **Actions** and run **Refresh profile content**, **Refresh featured project cards**, or **Refresh 3D contribution graph**.
+The two workflows share the `profile-writes` concurrency group to avoid simultaneous bot pushes.
